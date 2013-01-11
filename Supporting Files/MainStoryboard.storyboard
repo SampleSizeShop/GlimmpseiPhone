@@ -974,29 +974,32 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaT-ib-FlQ">
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="301" id="Dtx-Rl-ZVc"/>
-                                            <constraint firstAttribute="height" constant="283" id="RvA-t9-hPw"/>
+                                            <constraint firstAttribute="height" constant="416" id="eae-cK-hmf"/>
+                                            <constraint firstAttribute="width" constant="311" id="oX6-Kn-4Kr"/>
                                         </constraints>
-                                        <string key="text">GLIMMPSE Lite was developed by Uttara Sakhadeo and Drs. Aarti Munjal and Sarah Kreidler. Additional support was contributed by Vijay Chander Akula. 
+                                        <mutableString key="text">GLIMMPSE Lite was developed by Uttara Sakhadeo and Drs. Aarti Munjal and Sarah Kreidler. Additional support was contributed by Vijay Chander Akula. 
 
 GLIMMPSE Lite is part of a larger research project to provide researchers such as behavioral and social scientists with tools and education related to the following aspects of study design:
 
 - Calculating power and sample size for any univariate or multivariate test for the
 general linear multivariate model, assuming 
 fixed predictors.
+- Producing power calculations for designs with a single Gaussian covariate.
+- Supporting designs with unequal group sizes, and complicated covariance
+structures.
+- Creating basic power curves.
 
-</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+Additional documentation, publications, and related software products are available from samplesizeshop.org. For questions or report  a bug, please contact us.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="yaT-ib-FlQ" firstAttribute="top" secondItem="EZH-aP-EZQ" secondAttribute="top" constant="6" id="6bR-sG-V1y"/>
-                                    <constraint firstAttribute="trailing" secondItem="yaT-ib-FlQ" secondAttribute="trailing" constant="12" id="6tC-ks-o0t"/>
-                                    <constraint firstItem="yaT-ib-FlQ" firstAttribute="leading" secondItem="EZH-aP-EZQ" secondAttribute="leading" constant="12" id="KOH-hM-qh4"/>
-                                    <constraint firstAttribute="bottom" secondItem="yaT-ib-FlQ" secondAttribute="bottom" constant="150" id="Mrl-qK-B4R"/>
-                                    <constraint firstItem="yaT-ib-FlQ" firstAttribute="centerX" secondItem="EZH-aP-EZQ" secondAttribute="centerX" type="default" id="e9F-QY-4jX"/>
+                                    <constraint firstItem="yaT-ib-FlQ" firstAttribute="centerX" secondItem="EZH-aP-EZQ" secondAttribute="centerX" type="default" id="FUE-Ne-bmL"/>
+                                    <constraint firstItem="yaT-ib-FlQ" firstAttribute="top" secondItem="EZH-aP-EZQ" secondAttribute="top" constant="19" id="QJW-6m-l9g"/>
+                                    <constraint firstAttribute="bottom" secondItem="yaT-ib-FlQ" secondAttribute="bottom" constant="4" id="SWB-Jb-4JS"/>
+                                    <constraint firstAttribute="trailing" secondItem="yaT-ib-FlQ" secondAttribute="trailing" constant="7" id="vEl-KA-kPH"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -1004,6 +1007,7 @@ fixed predictors.
                         <constraints>
                             <constraint firstItem="EZH-aP-EZQ" firstAttribute="leading" secondItem="bwf-xo-eA5" secondAttribute="leading" type="default" id="GE3-Mf-Wi1"/>
                             <constraint firstAttribute="bottom" secondItem="PmV-1x-YFr" secondAttribute="bottom" constant="14" id="Jc5-uA-Ina"/>
+                            <constraint firstAttribute="trailing" secondItem="EZH-aP-EZQ" secondAttribute="trailing" constant="-5" id="NNb-h5-qbJ"/>
                             <constraint firstItem="NoD-tl-Gcg" firstAttribute="leading" secondItem="bwf-xo-eA5" secondAttribute="leading" type="default" id="VB6-3y-uIg"/>
                             <constraint firstItem="NoD-tl-Gcg" firstAttribute="bottom" secondItem="0Ga-qx-WYd" secondAttribute="bottom" type="default" id="apT-6X-7VV"/>
                             <constraint firstItem="NoD-tl-Gcg" firstAttribute="top" secondItem="bwf-xo-eA5" secondAttribute="top" type="default" id="bGg-Oa-5cu"/>
