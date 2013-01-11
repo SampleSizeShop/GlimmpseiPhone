@@ -43,6 +43,7 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                                     <navigationItem title="Glimmpse Lite" id="GrQ-dr-bQY"/>
                                 </items>
                             </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="GlimmpseIconNoBG48x48.png" translatesAutoresizingMaskIntoConstraints="NO" id="E9e-R8-qEA"/>
                             <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYp-np-1Nm">
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -90,11 +91,13 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                             <constraint firstItem="MYp-np-1Nm" firstAttribute="centerX" secondItem="ggu-kH-edL" secondAttribute="centerX" type="default" id="Dh4-f6-53r"/>
                             <constraint firstItem="X37-MZ-qq0" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="HLM-JR-kxE"/>
                             <constraint firstItem="MYp-np-1Nm" firstAttribute="trailing" secondItem="SMS-PR-mVX" secondAttribute="trailing" type="default" id="ICt-zr-ug9"/>
+                            <constraint firstItem="E9e-R8-qEA" firstAttribute="centerY" secondItem="X37-MZ-qq0" secondAttribute="centerY" type="default" id="MZ1-ha-Gfn"/>
                             <constraint firstItem="MYp-np-1Nm" firstAttribute="leading" secondItem="SMS-PR-mVX" secondAttribute="leading" type="default" id="NRe-SP-FES"/>
                             <constraint firstItem="AUK-xz-sbd" firstAttribute="top" secondItem="3" secondAttribute="top" constant="72" id="QW5-yG-R1u"/>
                             <constraint firstAttribute="bottom" secondItem="MYp-np-1Nm" secondAttribute="bottom" constant="79" id="Wb2-I0-Wcv"/>
                             <constraint firstItem="ggu-kH-edL" firstAttribute="top" secondItem="3" secondAttribute="top" constant="108" id="XHP-EE-sbt"/>
                             <constraint firstItem="X37-MZ-qq0" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="Z0c-hM-rcS"/>
+                            <constraint firstAttribute="trailing" secondItem="E9e-R8-qEA" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Z4o-Mx-UKw"/>
                             <constraint firstItem="X37-MZ-qq0" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="rBK-1p-mId"/>
                             <constraint firstAttribute="trailing" secondItem="f1U-A2-QME" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="v80-j9-kgr"/>
                             <constraint firstAttribute="bottom" secondItem="SMS-PR-mVX" secondAttribute="bottom" constant="26" id="xoN-hZ-3YR"/>
@@ -977,7 +980,7 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                                             <constraint firstAttribute="height" constant="416" id="eae-cK-hmf"/>
                                             <constraint firstAttribute="width" constant="311" id="oX6-Kn-4Kr"/>
                                         </constraints>
-                                        <mutableString key="text">GLIMMPSE Lite was developed by Uttara Sakhadeo and Drs. Aarti Munjal and Sarah Kreidler. Additional support was contributed by Vijay Chander Akula. 
+                                        <string key="text">GLIMMPSE Lite was developed by Uttara Sakhadeo and Drs. Aarti Munjal and Sarah Kreidler. Additional support was contributed by Vijay Chander Akula. 
 
 GLIMMPSE Lite is part of a larger research project to provide researchers such as behavioral and social scientists with tools and education related to the following aspects of study design:
 
@@ -989,7 +992,7 @@ fixed predictors.
 structures.
 - Creating basic power curves.
 
-Additional documentation, publications, and related software products are available from samplesizeshop.org. For questions or report  a bug, please contact us.</mutableString>
+Additional documentation, publications, and related software products are available from samplesizeshop.org. For questions or report  a bug, please contact us.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         <dataDetectorType key="dataDetectorTypes" link="YES"/>
