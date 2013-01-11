@@ -780,10 +780,10 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="cao-YY-Oct" firstAttribute="leading" secondItem="Udn-f6-dnj" secondAttribute="leading" constant="44" id="13k-h9-Qqt"/>
                             <constraint firstItem="xhO-Tl-Nts" firstAttribute="top" secondItem="Udn-f6-dnj" secondAttribute="top" constant="54" id="3Cp-Ba-abd"/>
                             <constraint firstItem="xhO-Tl-Nts" firstAttribute="leading" secondItem="Udn-f6-dnj" secondAttribute="leading" constant="35" id="ElU-Xe-WNN"/>
-                            <constraint firstItem="cao-YY-Oct" firstAttribute="top" secondItem="Udn-f6-dnj" secondAttribute="top" constant="220" id="msO-7u-gdx"/>
+                            <constraint firstItem="cao-YY-Oct" firstAttribute="top" secondItem="Udn-f6-dnj" secondAttribute="top" constant="177" id="TD9-G5-RMh"/>
+                            <constraint firstItem="cao-YY-Oct" firstAttribute="centerX" secondItem="xhO-Tl-Nts" secondAttribute="centerX" type="default" id="Z9K-At-t5z"/>
                         </constraints>
                     </view>
                     <connections>
@@ -1215,8 +1215,8 @@ Additional documentation, publications, and related software products are availa
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="qA5-Sq-JjS" firstAttribute="top" secondItem="RZW-KV-OWm" secondAttribute="top" constant="111" id="3Rv-oK-dmc"/>
                             <constraint firstItem="qKU-4M-NCi" firstAttribute="leading" secondItem="RZW-KV-OWm" secondAttribute="leading" constant="30" id="5nC-sW-YCi"/>
-                            <constraint firstItem="qA5-Sq-JjS" firstAttribute="top" secondItem="RZW-KV-OWm" secondAttribute="top" constant="151" id="Bd5-j8-mMs"/>
                             <constraint firstItem="qA5-Sq-JjS" firstAttribute="centerX" secondItem="RZW-KV-OWm" secondAttribute="centerX" type="default" id="aio-2d-9Xc"/>
                             <constraint firstItem="qKU-4M-NCi" firstAttribute="top" secondItem="RZW-KV-OWm" secondAttribute="top" constant="33" id="lbL-5n-jDk"/>
                         </constraints>
@@ -2161,11 +2161,11 @@ Additional documentation, publications, and related software products are availa
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="tdE-11-JxA" firstAttribute="top" secondItem="97R-1P-L2j" secondAttribute="top" constant="103" id="0lh-ek-k7Y"/>
                             <constraint firstItem="Xgl-yg-Fsd" firstAttribute="leading" secondItem="97R-1P-L2j" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="EiN-ic-nB7"/>
                             <constraint firstItem="Xgl-yg-Fsd" firstAttribute="top" secondItem="97R-1P-L2j" secondAttribute="top" constant="25" id="U5K-VC-abG"/>
                             <constraint firstAttribute="trailing" secondItem="Xgl-yg-Fsd" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Wii-eZ-p2S"/>
                             <constraint firstItem="tdE-11-JxA" firstAttribute="leading" secondItem="97R-1P-L2j" secondAttribute="leading" constant="110" id="mZD-Rx-TGc"/>
-                            <constraint firstItem="tdE-11-JxA" firstAttribute="top" secondItem="97R-1P-L2j" secondAttribute="top" constant="128" id="vjp-1z-GCP"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
