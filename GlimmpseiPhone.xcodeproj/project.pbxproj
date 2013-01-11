@@ -74,6 +74,7 @@
 		1D1AF163169FD0C000EFE240 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1D1AF165169FD10500EFE240 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1D1AF16E169FF87400EFE240 /* LICENSE-gpl2.0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-gpl2.0.txt"; sourceTree = "<group>"; };
+		1D1AF18816A00B8E00EFE240 /* DevelopmentGlueckLabAdHocProfile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = DevelopmentGlueckLabAdHocProfile.mobileprovision; sourceTree = "<group>"; };
 		1D28F962169AA25F00512BEC /* GlimmpseSolvingForViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseSolvingForViewController.h; sourceTree = "<group>"; };
 		1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseSolvingForViewController.m; sourceTree = "<group>"; };
 		1D28F966169AA79000512BEC /* GlimmpsePowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpsePowerViewController.h; sourceTree = "<group>"; };
@@ -434,6 +435,7 @@
 			isa = PBXGroup;
 			children = (
 				58AD398D169CC01E00B5CAC2 /* C172DF42-1863-41B2-A228-AE339CDF6C6B.mobileprovision */,
+				1D1AF18816A00B8E00EFE240 /* DevelopmentGlueckLabAdHocProfile.mobileprovision */,
 				1D80BAFD168DBF9700EDE79B /* GlimmpseiPhone-Info.plist */,
 				1D80BAFE168DBF9700EDE79B /* GlimmpseiPhone-Prefix.pch */,
 				1D80BAFF168DBF9700EDE79B /* InfoPlist.strings */,
