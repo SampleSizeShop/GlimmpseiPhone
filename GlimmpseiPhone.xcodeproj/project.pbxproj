@@ -652,7 +652,7 @@
 		1D80BAF1168DBE5E00EDE79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
@@ -670,6 +670,7 @@
 		1D80BAF2168DBE5E00EDE79B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
@@ -679,6 +680,7 @@
 					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/GlimmpseiPhoneWorkspace-ciznlnrtmytqmobnhwsjfnfxpziu/Build/Products/Debug-iphoneos\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E0F14FA1-B546-4F58-AB58-5AC71C22A744";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
