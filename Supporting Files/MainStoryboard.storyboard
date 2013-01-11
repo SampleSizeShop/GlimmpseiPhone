@@ -1222,10 +1222,10 @@ fixed predictors.
             </objects>
             <point key="canvasLocation" x="2070" y="470"/>
         </scene>
-        <!--Glimmpse Power Result View Controller-->
+        <!--Glimmpse Power Result View Controller - Power Results-->
         <scene sceneID="wXN-Af-csr">
             <objects>
-                <viewController storyboardIdentifier="powerResultControllerView" id="Q68-38-O8e" customClass="GlimmpsePowerResultViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="powerResultControllerView" title="Power Results" id="Q68-38-O8e" customClass="GlimmpsePowerResultViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MK7-Q0-TTZ">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1251,10 +1251,10 @@ fixed predictors.
             </objects>
             <point key="canvasLocation" x="2426" y="1133"/>
         </scene>
-        <!--Glimmpse Smallest Group Size View Controller-->
+        <!--Glimmpse Smallest Group Size View Controller - Smallest Group Size-->
         <scene sceneID="2Rl-M3-swk">
             <objects>
-                <viewController storyboardIdentifier="designSmallestGroupSize" id="ZKC-cV-7ls" customClass="GlimmpseSmallestGroupSizeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="designSmallestGroupSize" title="Smallest Group Size" id="ZKC-cV-7ls" customClass="GlimmpseSmallestGroupSizeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U9H-Dz-eJh">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
