@@ -170,6 +170,9 @@ UIButton *sendEmailButton;
         powerLabel.font = [UIFont boldSystemFontOfSize:16.0];
         powerLabel.text = @"Power";
         [cell setBackgroundColor:[UIColor lightGrayColor]];
+        powerLabel.textAlignment = NSTextAlignmentCenter;
+        powerLabel.backgroundColor = [UIColor clearColor];
+        [cell.contentView addSubview:powerLabel];
     }
     else if (indexPath.section == 0 && indexPath.row > 0) {
         powerLabel = [[UILabel alloc] initWithFrame:CGRectMake(15.0, 5.0, 100.0, 25.0)];
@@ -190,19 +193,22 @@ UIButton *sendEmailButton;
             str = @"-";
         }
         [powerLabel setText:str];
-        
+        powerLabel.textAlignment = NSTextAlignmentCenter;
+        powerLabel.backgroundColor = [UIColor clearColor];
+        [cell.contentView addSubview:powerLabel];
         
         
     }
-    //powerLabel.textAlignment = NSTextAlignmentCenter;
-    //powerLabel.backgroundColor = [UIColor clearColor];
-    //[cell.contentView addSubview:powerLabel];
+    
     
     
     if (indexPath.section == 0 && indexPath.row == 0) {
         sampleSizeLabel = [[UILabel alloc] initWithFrame:CGRectMake(150.0, 10.0, 130.0, 30.0)];
         sampleSizeLabel.font = [UIFont boldSystemFontOfSize:16.0];
         sampleSizeLabel.text = @"Sample Size";
+        sampleSizeLabel.textAlignment = NSTextAlignmentCenter; //UITextAlignmentCenter;
+        sampleSizeLabel.backgroundColor = [UIColor clearColor];
+        [cell.contentView addSubview:sampleSizeLabel];
     }
     else if (indexPath.section == 0 && indexPath.row > 0){
         sampleSizeLabel = [[UILabel alloc] initWithFrame:CGRectMake(160.0, 5.0, 120.0, 25.0)];
@@ -213,13 +219,18 @@ UIButton *sendEmailButton;
         str = strNew;
         if ([str isEqualToString:@"NoSelection"] || [str isEqualToString:@"N/A"]) {
             [sampleSizeLabel setText:@"-"];
+            sampleSizeLabel.textAlignment = NSTextAlignmentCenter; //UITextAlignmentCenter;
+            sampleSizeLabel.backgroundColor = [UIColor clearColor];
+            [cell.contentView addSubview:sampleSizeLabel];
         }
-        else
+        else {
             [sampleSizeLabel setText:str];
+            sampleSizeLabel.textAlignment = NSTextAlignmentCenter; //UITextAlignmentCenter;
+            sampleSizeLabel.backgroundColor = [UIColor clearColor];
+            [cell.contentView addSubview:sampleSizeLabel];
+        }
     }
-    //sampleSizeLabel.textAlignment = NSTextAlignmentCenter; //UITextAlignmentCenter;
-    //sampleSizeLabel.backgroundColor = [UIColor clearColor];
-    //[cell.contentView addSubview:sampleSizeLabel];
+    
     
     
     
