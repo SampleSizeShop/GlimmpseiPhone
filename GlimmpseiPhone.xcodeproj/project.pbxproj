@@ -13,6 +13,9 @@
 		1D1AF144169FB52A00EFE240 /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF143169FB52A00EFE240 /* aboutus.png */; };
 		1D1AF146169FB53000EFE240 /* complete_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF145169FB53000EFE240 /* complete_icon.png */; };
 		1D1AF148169FB53500EFE240 /* incomplete_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF147169FB53500EFE240 /* incomplete_icon.png */; };
+		1D1AF14A169FBCCD00EFE240 /* GlimmpseIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */; };
+		1D1AF14E169FBD3300EFE240 /* GlimmpseIcon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */; };
+		1D1AF152169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */; };
 		1D28F964169AA25F00512BEC /* GlimmpseSolvingForViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */; };
 		1D28F968169AA79000512BEC /* GlimmpsePowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F967169AA79000512BEC /* GlimmpsePowerViewController.m */; };
 		1D2E735B169BFB11005260CC /* GlimmpseIconNoBG48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2E735A169BFB11005260CC /* GlimmpseIconNoBG48x48.png */; };
@@ -53,7 +56,6 @@
 		58AD3982169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */; };
 		58AD3984169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3983169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv */; };
 		58AD3986169C8B4600B5CAC2 /* studySample.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3985169C8B4600B5CAC2 /* studySample.json */; };
-		58AD39A0169CE63F00B5CAC2 /* libWebServiceCommonObjectiveC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD399F169CE63F00B5CAC2 /* libWebServiceCommonObjectiveC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +65,9 @@
 		1D1AF143169FB52A00EFE240 /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus.png; sourceTree = "<group>"; };
 		1D1AF145169FB53000EFE240 /* complete_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = complete_icon.png; sourceTree = "<group>"; };
 		1D1AF147169FB53500EFE240 /* incomplete_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incomplete_icon.png; sourceTree = "<group>"; };
+		1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseIcon57x57.png; sourceTree = "<group>"; };
+		1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseIcon114x114.png; sourceTree = "<group>"; };
+		1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWebServiceCommonObjectiveC.a; path = "../../Library/Developer/Xcode/DerivedData/GlimmpseiPhoneWorkspace-ciznlnrtmytqmobnhwsjfnfxpziu/Build/Products/Debug-iphoneos/libWebServiceCommonObjectiveC.a"; sourceTree = "<group>"; };
 		1D28F962169AA25F00512BEC /* GlimmpseSolvingForViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseSolvingForViewController.h; sourceTree = "<group>"; };
 		1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseSolvingForViewController.m; sourceTree = "<group>"; };
 		1D28F966169AA79000512BEC /* GlimmpsePowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpsePowerViewController.h; sourceTree = "<group>"; };
@@ -201,7 +206,6 @@
 		58AD3983169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GLIMMPSEPowerResults.csv; sourceTree = "<group>"; };
 		58AD3985169C8B4600B5CAC2 /* studySample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = studySample.json; sourceTree = "<group>"; };
 		58AD398D169CC01E00B5CAC2 /* C172DF42-1863-41B2-A228-AE339CDF6C6B.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = "C172DF42-1863-41B2-A228-AE339CDF6C6B.mobileprovision"; sourceTree = "<group>"; };
-		58AD399F169CE63F00B5CAC2 /* libWebServiceCommonObjectiveC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWebServiceCommonObjectiveC.a; path = "../../Library/Developer/Xcode/DerivedData/GlimmpseiPhoneWorkspace-efjlyshvjeixdjbwhgblpedqcekg/Build/Products/Debug-iphoneos/libWebServiceCommonObjectiveC.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,7 +213,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58AD39A0169CE63F00B5CAC2 /* libWebServiceCommonObjectiveC.a in Frameworks */,
+				1D1AF152169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a in Frameworks */,
 				1D7FC84D169BBCD400DD0475 /* CoreData.framework in Frameworks */,
 				1D7FC84B169BBCC300DD0475 /* QuartzCore.framework in Frameworks */,
 				1D440704169771EA005EADC9 /* MessageUI.framework in Frameworks */,
@@ -339,7 +343,7 @@
 		1D80BAC1168DBE5E00EDE79B = {
 			isa = PBXGroup;
 			children = (
-				58AD399F169CE63F00B5CAC2 /* libWebServiceCommonObjectiveC.a */,
+				1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */,
 				1D3CD689169B9E5E002D61A7 /* Externals */,
 				1D80BAF3168DBF3000EDE79B /* Src */,
 				1D80BB0F168DBFB700EDE79B /* Text */,
@@ -452,6 +456,8 @@
 				1D2E735A169BFB11005260CC /* GlimmpseIconNoBG48x48.png */,
 				1D1AF145169FB53000EFE240 /* complete_icon.png */,
 				1D1AF143169FB52A00EFE240 /* aboutus.png */,
+				1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */,
+				1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */,
 				1D1AF147169FB53500EFE240 /* incomplete_icon.png */,
 				1D1AF141169FB52400EFE240 /* 165-glasses-3.png */,
 				1D1AF13F169FB51D00EFE240 /* 117-todo.png */,
@@ -545,6 +551,8 @@
 				1D1AF144169FB52A00EFE240 /* aboutus.png in Resources */,
 				1D1AF146169FB53000EFE240 /* complete_icon.png in Resources */,
 				1D1AF148169FB53500EFE240 /* incomplete_icon.png in Resources */,
+				1D1AF14A169FBCCD00EFE240 /* GlimmpseIcon57x57.png in Resources */,
+				1D1AF14E169FBD3300EFE240 /* GlimmpseIcon114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,7 +649,10 @@
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/**",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/GlimmpseiPhoneWorkspace-ciznlnrtmytqmobnhwsjfnfxpziu/Build/Products/Debug-iphoneos\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
@@ -655,7 +666,10 @@
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(BUILT_PRODUCTS_DIR)/**",
+					"\"$(SRCROOT)/../../Library/Developer/Xcode/DerivedData/GlimmpseiPhoneWorkspace-ciznlnrtmytqmobnhwsjfnfxpziu/Build/Products/Debug-iphoneos\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
