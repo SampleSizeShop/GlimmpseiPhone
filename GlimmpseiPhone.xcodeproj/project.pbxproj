@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1AF13D169FB51700EFE240 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF13C169FB51700EFE240 /* 20-gear2.png */; };
+		1D1AF140169FB51D00EFE240 /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF13F169FB51D00EFE240 /* 117-todo.png */; };
+		1D1AF142169FB52400EFE240 /* 165-glasses-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF141169FB52400EFE240 /* 165-glasses-3.png */; };
+		1D1AF144169FB52A00EFE240 /* aboutus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF143169FB52A00EFE240 /* aboutus.png */; };
+		1D1AF146169FB53000EFE240 /* complete_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF145169FB53000EFE240 /* complete_icon.png */; };
+		1D1AF148169FB53500EFE240 /* incomplete_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF147169FB53500EFE240 /* incomplete_icon.png */; };
 		1D28F964169AA25F00512BEC /* GlimmpseSolvingForViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */; };
 		1D28F968169AA79000512BEC /* GlimmpsePowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F967169AA79000512BEC /* GlimmpsePowerViewController.m */; };
 		1D2E735B169BFB11005260CC /* GlimmpseIconNoBG48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2E735A169BFB11005260CC /* GlimmpseIconNoBG48x48.png */; };
@@ -51,6 +57,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D1AF13C169FB51700EFE240 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		1D1AF13F169FB51D00EFE240 /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "117-todo.png"; sourceTree = "<group>"; };
+		1D1AF141169FB52400EFE240 /* 165-glasses-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "165-glasses-3.png"; sourceTree = "<group>"; };
+		1D1AF143169FB52A00EFE240 /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus.png; sourceTree = "<group>"; };
+		1D1AF145169FB53000EFE240 /* complete_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = complete_icon.png; sourceTree = "<group>"; };
+		1D1AF147169FB53500EFE240 /* incomplete_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incomplete_icon.png; sourceTree = "<group>"; };
 		1D28F962169AA25F00512BEC /* GlimmpseSolvingForViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseSolvingForViewController.h; sourceTree = "<group>"; };
 		1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseSolvingForViewController.m; sourceTree = "<group>"; };
 		1D28F966169AA79000512BEC /* GlimmpsePowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpsePowerViewController.h; sourceTree = "<group>"; };
@@ -438,7 +450,13 @@
 			isa = PBXGroup;
 			children = (
 				1D2E735A169BFB11005260CC /* GlimmpseIconNoBG48x48.png */,
+				1D1AF145169FB53000EFE240 /* complete_icon.png */,
+				1D1AF143169FB52A00EFE240 /* aboutus.png */,
+				1D1AF147169FB53500EFE240 /* incomplete_icon.png */,
+				1D1AF141169FB52400EFE240 /* 165-glasses-3.png */,
+				1D1AF13F169FB51D00EFE240 /* 117-todo.png */,
 				1D80BB08168DBFA200EDE79B /* Default-568h@2x.png */,
+				1D1AF13C169FB51700EFE240 /* 20-gear2.png */,
 				1D80BB09168DBFA200EDE79B /* Default.png */,
 				1D80BB0A168DBFA200EDE79B /* Default@2x.png */,
 			);
@@ -521,6 +539,12 @@
 				58AD3982169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json in Resources */,
 				58AD3984169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv in Resources */,
 				58AD3986169C8B4600B5CAC2 /* studySample.json in Resources */,
+				1D1AF13D169FB51700EFE240 /* 20-gear2.png in Resources */,
+				1D1AF140169FB51D00EFE240 /* 117-todo.png in Resources */,
+				1D1AF142169FB52400EFE240 /* 165-glasses-3.png in Resources */,
+				1D1AF144169FB52A00EFE240 /* aboutus.png in Resources */,
+				1D1AF146169FB53000EFE240 /* complete_icon.png in Resources */,
+				1D1AF148169FB53500EFE240 /* incomplete_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
