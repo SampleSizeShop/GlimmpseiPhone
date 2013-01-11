@@ -434,7 +434,7 @@ UIButton *sendEmailButton;
             NSString *messageBody = @"Thank you for using the GLIMMPSE Lite application. Your power results are attached to this email. \n To learn more about power and sample size, please visit http://samplesizeshop.org.";
             mailComposer =[[MFMailComposeViewController alloc]init];
             mailComposer.mailComposeDelegate = self;
-            NSArray *emailAddresses = [[NSArray alloc]initWithObjects:@"aarti.munjal@ucdenver.edu", nil]; //samplesizeshop@gmail.com
+            NSArray *emailAddresses = [[NSArray alloc]initWithObjects:@"", nil]; 
             [mailComposer setSubject:emailTitle];
             [mailComposer setMessageBody:messageBody isHTML:YES];
             [mailComposer addAttachmentData:csvFile mimeType:@"application/octet-stream" fileName:csvFileName];
