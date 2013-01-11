@@ -16,6 +16,9 @@
 		1D1AF14A169FBCCD00EFE240 /* GlimmpseIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */; };
 		1D1AF14E169FBD3300EFE240 /* GlimmpseIcon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */; };
 		1D1AF152169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */; };
+		1D1AF154169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF153169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png */; };
+		1D1AF158169FBE0C00EFE240 /* GlimmpseLaunchImage640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF157169FBE0C00EFE240 /* GlimmpseLaunchImage640x960.png */; };
+		1D1AF15A169FBE1300EFE240 /* GlimmpseLaunchImage640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF159169FBE1300EFE240 /* GlimmpseLaunchImage640x1136.png */; };
 		1D28F964169AA25F00512BEC /* GlimmpseSolvingForViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */; };
 		1D28F968169AA79000512BEC /* GlimmpsePowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F967169AA79000512BEC /* GlimmpsePowerViewController.m */; };
 		1D2E735B169BFB11005260CC /* GlimmpseIconNoBG48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2E735A169BFB11005260CC /* GlimmpseIconNoBG48x48.png */; };
@@ -46,9 +49,7 @@
 		1D80BB03168DBF9700EDE79B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D80BAFF168DBF9700EDE79B /* InfoPlist.strings */; };
 		1D80BB04168DBF9700EDE79B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB00168DBF9700EDE79B /* main.m */; };
 		1D80BB05168DBF9700EDE79B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D80BB01168DBF9700EDE79B /* MainStoryboard.storyboard */; };
-		1D80BB0B168DBFA200EDE79B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D80BB08168DBFA200EDE79B /* Default-568h@2x.png */; };
 		1D80BB0C168DBFA200EDE79B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D80BB09168DBFA200EDE79B /* Default.png */; };
-		1D80BB0D168DBFA200EDE79B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D80BB0A168DBFA200EDE79B /* Default@2x.png */; };
 		1D80BB2A168F485B00EDE79B /* GlimmpseTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB29168F485B00EDE79B /* GlimmpseTutorialViewController.m */; };
 		1D80BB2E168F486700EDE79B /* GlimmpseDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB2D168F486700EDE79B /* GlimmpseDesignViewController.m */; };
 		1D80BB31168F487500EDE79B /* GlimmpseAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB30168F487500EDE79B /* GlimmpseAboutUsViewController.m */; };
@@ -68,6 +69,9 @@
 		1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseIcon57x57.png; sourceTree = "<group>"; };
 		1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseIcon114x114.png; sourceTree = "<group>"; };
 		1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWebServiceCommonObjectiveC.a; path = "../../Library/Developer/Xcode/DerivedData/GlimmpseiPhoneWorkspace-ciznlnrtmytqmobnhwsjfnfxpziu/Build/Products/Debug-iphoneos/libWebServiceCommonObjectiveC.a"; sourceTree = "<group>"; };
+		1D1AF153169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseLaunchImage320x480.png; sourceTree = "<group>"; };
+		1D1AF157169FBE0C00EFE240 /* GlimmpseLaunchImage640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseLaunchImage640x960.png; sourceTree = "<group>"; };
+		1D1AF159169FBE1300EFE240 /* GlimmpseLaunchImage640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseLaunchImage640x1136.png; sourceTree = "<group>"; };
 		1D28F962169AA25F00512BEC /* GlimmpseSolvingForViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseSolvingForViewController.h; sourceTree = "<group>"; };
 		1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseSolvingForViewController.m; sourceTree = "<group>"; };
 		1D28F966169AA79000512BEC /* GlimmpsePowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpsePowerViewController.h; sourceTree = "<group>"; };
@@ -192,9 +196,7 @@
 		1D80BAFF168DBF9700EDE79B /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		1D80BB00168DBF9700EDE79B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D80BB01168DBF9700EDE79B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1D80BB08168DBFA200EDE79B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1D80BB09168DBFA200EDE79B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1D80BB0A168DBFA200EDE79B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1D80BB28168F485B00EDE79B /* GlimmpseTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseTutorialViewController.h; sourceTree = "<group>"; };
 		1D80BB29168F485B00EDE79B /* GlimmpseTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseTutorialViewController.m; sourceTree = "<group>"; };
 		1D80BB2C168F486700EDE79B /* GlimmpseDesignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseDesignViewController.h; sourceTree = "<group>"; };
@@ -459,12 +461,13 @@
 				1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */,
 				1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */,
 				1D1AF147169FB53500EFE240 /* incomplete_icon.png */,
+				1D1AF159169FBE1300EFE240 /* GlimmpseLaunchImage640x1136.png */,
+				1D1AF153169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png */,
+				1D1AF157169FBE0C00EFE240 /* GlimmpseLaunchImage640x960.png */,
 				1D1AF141169FB52400EFE240 /* 165-glasses-3.png */,
 				1D1AF13F169FB51D00EFE240 /* 117-todo.png */,
-				1D80BB08168DBFA200EDE79B /* Default-568h@2x.png */,
 				1D1AF13C169FB51700EFE240 /* 20-gear2.png */,
 				1D80BB09168DBFA200EDE79B /* Default.png */,
-				1D80BB0A168DBFA200EDE79B /* Default@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -537,9 +540,7 @@
 			files = (
 				1D80BB03168DBF9700EDE79B /* InfoPlist.strings in Resources */,
 				1D80BB05168DBF9700EDE79B /* MainStoryboard.storyboard in Resources */,
-				1D80BB0B168DBFA200EDE79B /* Default-568h@2x.png in Resources */,
 				1D80BB0C168DBFA200EDE79B /* Default.png in Resources */,
-				1D80BB0D168DBFA200EDE79B /* Default@2x.png in Resources */,
 				1D2E735B169BFB11005260CC /* GlimmpseIconNoBG48x48.png in Resources */,
 				58AD397F169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json in Resources */,
 				58AD3982169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json in Resources */,
@@ -553,6 +554,9 @@
 				1D1AF148169FB53500EFE240 /* incomplete_icon.png in Resources */,
 				1D1AF14A169FBCCD00EFE240 /* GlimmpseIcon57x57.png in Resources */,
 				1D1AF14E169FBD3300EFE240 /* GlimmpseIcon114x114.png in Resources */,
+				1D1AF154169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png in Resources */,
+				1D1AF158169FBE0C00EFE240 /* GlimmpseLaunchImage640x960.png in Resources */,
+				1D1AF15A169FBE1300EFE240 /* GlimmpseLaunchImage640x1136.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
