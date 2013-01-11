@@ -261,14 +261,16 @@
     
     UINavigationController *navigationController = [mainStoryboard instantiateViewControllerWithIdentifier:@"NavigationController"];
     
+    navigationController.tabBarItem.image = [UIImage imageNamed:@"165-glasses-3.png"];
+    
     UINavigationController *designController = [mainStoryboard instantiateViewControllerWithIdentifier:@"GlimmpseDesignView"];
     
-    //GlimmpseDesignViewController *designViewController = (GlimmpseDesignViewController*)[mainStoryboard instantiateViewControllerWithIdentifier:@"GlimmpseDesignViewController"];
+    designController.tabBarItem.image = [UIImage imageNamed:@"20-gear2.png"];
     
     GlimmpseAboutUsViewController *aboutUsViewController = (GlimmpseAboutUsViewController*)[mainStoryboard instantiateViewControllerWithIdentifier:@"GlimmpseAboutUsViewController"];
     
+    aboutUsViewController.tabBarItem.image = [UIImage imageNamed:@"aboutus.png"];
     
-    //tabBarController.viewControllers = [NSArray arrayWithObjects:tutorialViewController, designViewController, aboutUsViewController, nil];
     
     tabBarController.viewControllers = [NSArray arrayWithObjects:navigationController, designController, aboutUsViewController, nil];
     
