@@ -187,7 +187,7 @@
 		1D7FC833169BAB9900DD0475 /* WebServiceCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceCommonLib.h; sourceTree = "<group>"; };
 		1D7FC84A169BBCC300DD0475 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1D7FC84C169BBCD400DD0475 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1D80BACC168DBE5E00EDE79B /* GlimmpseiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlimmpseiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glimmpse Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D80BAD0168DBE5E00EDE79B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1D80BAD2168DBE5E00EDE79B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D80BAD4168DBE5E00EDE79B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -366,7 +366,7 @@
 		1D80BACD168DBE5E00EDE79B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D80BACC168DBE5E00EDE79B /* GlimmpseiPhone.app */,
+				1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -497,9 +497,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D80BACB168DBE5E00EDE79B /* Glimmpse Lite */ = {
+		1D80BACB168DBE5E00EDE79B /* GLIMMPSE Lite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "Glimmpse Lite" */;
+			buildConfigurationList = 1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "GLIMMPSE Lite" */;
 			buildPhases = (
 				1D80BAC8168DBE5E00EDE79B /* Sources */,
 				1D80BAC9168DBE5E00EDE79B /* Frameworks */,
@@ -509,9 +509,9 @@
 			);
 			dependencies = (
 			);
-			name = "Glimmpse Lite";
+			name = "GLIMMPSE Lite";
 			productName = GlimmpseiPhone;
-			productReference = 1D80BACC168DBE5E00EDE79B /* GlimmpseiPhone.app */;
+			productReference = 1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -536,7 +536,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D80BACB168DBE5E00EDE79B /* Glimmpse Lite */,
+				1D80BACB168DBE5E00EDE79B /* GLIMMPSE Lite */,
 			);
 		};
 /* End PBXProject section */
@@ -658,14 +658,16 @@
 		1D80BAF1168DBE5E00EDE79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "CB76809C-0E42-4089-893D-B87108E3D804";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB76809C-0E42-4089-893D-B87108E3D804";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -673,14 +675,16 @@
 		1D80BAF2168DBE5E00EDE79B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E0F14FA1-B546-4F58-AB58-5AC71C22A744";
+				PROVISIONING_PROFILE = "CB76809C-0E42-4089-893D-B87108E3D804";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB76809C-0E42-4089-893D-B87108E3D804";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -697,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "Glimmpse Lite" */ = {
+		1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "GLIMMPSE Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D80BAF1168DBE5E00EDE79B /* Debug */,
