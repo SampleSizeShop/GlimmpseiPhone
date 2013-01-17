@@ -658,16 +658,16 @@
 		1D80BAF1168DBE5E00EDE79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aarti Munjal";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "CB76809C-0E42-4089-893D-B87108E3D804";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB76809C-0E42-4089-893D-B87108E3D804";
+				PROVISIONING_PROFILE = "E0F14FA1-B546-4F58-AB58-5AC71C22A744";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E0F14FA1-B546-4F58-AB58-5AC71C22A744";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -675,16 +675,16 @@
 		1D80BAF2168DBE5E00EDE79B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aarti Munjal";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "CB76809C-0E42-4089-893D-B87108E3D804";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB76809C-0E42-4089-893D-B87108E3D804";
+				PROVISIONING_PROFILE = "E0F14FA1-B546-4F58-AB58-5AC71C22A744";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E0F14FA1-B546-4F58-AB58-5AC71C22A744";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
