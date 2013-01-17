@@ -25,7 +25,7 @@
                                     <constraint firstAttribute="height" constant="113" id="AWr-Gh-pTE"/>
                                     <constraint firstAttribute="width" constant="280" id="Rzd-rQ-Zey"/>
                                 </constraints>
-                                <string key="text">Glimmpse Lite calculates power and sample size for one-way ANOVA designs with normally distributed outcomes. The software was developed by Uttara Sakhadeo and Drs. Aarti Munjal and Sarah Kreidler. </string>
+                                <string key="text">GLIMMPSE Lite calculates power and sample size for one-way ANOVA designs with normally distributed outcomes. The software was developed by Uttara Sakhadeo and Drs. Aarti Munjal and Sarah Kreidler. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -40,7 +40,7 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                             </textView>
                             <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="X37-MZ-qq0">
                                 <items>
-                                    <navigationItem title="Glimmpse Lite" id="GrQ-dr-bQY"/>
+                                    <navigationItem title="GLIMMPSE Lite" id="GrQ-dr-bQY"/>
                                 </items>
                             </navigationBar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="GlimmpseIconNoBG48x48.png" translatesAutoresizingMaskIntoConstraints="NO" id="E9e-R8-qEA"/>
@@ -1274,7 +1274,7 @@ Additional documentation, publications, and related software products are availa
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4YR-Hg-H7I">
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="78" id="9je-TB-NJa"/>
+                                            <constraint firstAttribute="height" constant="87" id="aXJ-KA-r50"/>
                                             <constraint firstAttribute="width" constant="282" id="fzt-O1-4Ex"/>
                                         </constraints>
                                         <string key="text">Specify the number of study participants in the smallest group. You may choose up to four values: power or total sample size will be calculated for each value you choose.</string>
