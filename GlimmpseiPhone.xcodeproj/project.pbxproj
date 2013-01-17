@@ -497,9 +497,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D80BACB168DBE5E00EDE79B /* GlimmpseiPhone */ = {
+		1D80BACB168DBE5E00EDE79B /* Glimmpse Lite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "GlimmpseiPhone" */;
+			buildConfigurationList = 1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "Glimmpse Lite" */;
 			buildPhases = (
 				1D80BAC8168DBE5E00EDE79B /* Sources */,
 				1D80BAC9168DBE5E00EDE79B /* Frameworks */,
@@ -509,7 +509,7 @@
 			);
 			dependencies = (
 			);
-			name = GlimmpseiPhone;
+			name = "Glimmpse Lite";
 			productName = GlimmpseiPhone;
 			productReference = 1D80BACC168DBE5E00EDE79B /* GlimmpseiPhone.app */;
 			productType = "com.apple.product-type.application";
@@ -536,7 +536,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D80BACB168DBE5E00EDE79B /* GlimmpseiPhone */,
+				1D80BACB168DBE5E00EDE79B /* Glimmpse Lite */,
 			);
 		};
 /* End PBXProject section */
@@ -697,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "GlimmpseiPhone" */ = {
+		1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "Glimmpse Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D80BAF1168DBE5E00EDE79B /* Debug */,
