@@ -946,7 +946,11 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                             <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="NoD-tl-Gcg">
                                 <items>
                                     <navigationItem title="About Us" id="tmm-iy-jOY">
-                                        <barButtonItem key="leftBarButtonItem" title="Home" id="qh4-DT-82f"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Home" id="qh4-DT-82f">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="eP0-Un-r81"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -1029,7 +1033,7 @@ Additional documentation, publications, and related software products are availa
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DJq-l1-vdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="232" y="1196"/>
+            <point key="canvasLocation" x="-224" y="-376"/>
         </scene>
         <!--Glimmpse Power View Controller - Power-->
         <scene sceneID="nsj-mr-LfX">
@@ -2344,6 +2348,6 @@ Additional documentation, publications, and related software products are availa
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="eCj-a3-gZ8"/>
+        <segue reference="eP0-Un-r81"/>
     </inferredMetricsTieBreakers>
 </document>
