@@ -187,7 +187,7 @@
 		1D7FC833169BAB9900DD0475 /* WebServiceCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceCommonLib.h; sourceTree = "<group>"; };
 		1D7FC84A169BBCC300DD0475 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1D7FC84C169BBCD400DD0475 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glimmpse Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D80BACC168DBE5E00EDE79B /* GLIMMPSE Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLIMMPSE Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D80BAD0168DBE5E00EDE79B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1D80BAD2168DBE5E00EDE79B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D80BAD4168DBE5E00EDE79B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -366,7 +366,7 @@
 		1D80BACD168DBE5E00EDE79B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */,
+				1D80BACC168DBE5E00EDE79B /* GLIMMPSE Lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -511,7 +511,7 @@
 			);
 			name = "GLIMMPSE Lite";
 			productName = GlimmpseiPhone;
-			productReference = 1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */;
+			productReference = 1D80BACC168DBE5E00EDE79B /* GLIMMPSE Lite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
