@@ -52,6 +52,7 @@
 		1D80BB2A168F485B00EDE79B /* GlimmpseTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB29168F485B00EDE79B /* GlimmpseTutorialViewController.m */; };
 		1D80BB2E168F486700EDE79B /* GlimmpseDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB2D168F486700EDE79B /* GlimmpseDesignViewController.m */; };
 		1D80BB31168F487500EDE79B /* GlimmpseAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB30168F487500EDE79B /* GlimmpseAboutUsViewController.m */; };
+		1DCAE85E16A8F9380080224D /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAE85D16A8F9380080224D /* build.sh */; };
 		5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5856A6EF16A0B715004C9CD4 /* GLIMMPSELiteDescription.txt */; };
 		58AD397F169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */; };
 		58AD3982169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */; };
@@ -204,6 +205,7 @@
 		1D80BB2D168F486700EDE79B /* GlimmpseDesignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseDesignViewController.m; sourceTree = "<group>"; };
 		1D80BB2F168F487500EDE79B /* GlimmpseAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseAboutUsViewController.h; sourceTree = "<group>"; };
 		1D80BB30168F487500EDE79B /* GlimmpseAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseAboutUsViewController.m; sourceTree = "<group>"; };
+		1DCAE85D16A8F9380080224D /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		5856A6EF16A0B715004C9CD4 /* GLIMMPSELiteDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GLIMMPSELiteDescription.txt; sourceTree = "<group>"; };
 		58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EqualGroupSizeOneWayANOVA.json; sourceTree = "<group>"; };
 		58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GLIMMPSELiteStudyDesign.json; sourceTree = "<group>"; };
@@ -461,7 +463,6 @@
 			children = (
 				1D2E735A169BFB11005260CC /* GlimmpseIconNoBG48x48.png */,
 				1D1AF165169FD10500EFE240 /* Default@2x.png */,
-				1D1AF163169FD0C000EFE240 /* Default-568h@2x.png */,
 				1D1AF145169FB53000EFE240 /* complete_icon.png */,
 				1D1AF143169FB52A00EFE240 /* aboutus.png */,
 				1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */,
@@ -479,6 +480,7 @@
 		1D80BB0E168DBFAC00EDE79B /* Build */ = {
 			isa = PBXGroup;
 			children = (
+				1DCAE85D16A8F9380080224D /* build.sh */,
 			);
 			path = Build;
 			sourceTree = "<group>";
@@ -562,6 +564,7 @@
 				1D1AF154169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png in Resources */,
 				1D1AF16F169FF87400EFE240 /* LICENSE-gpl2.0.txt in Resources */,
 				5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */,
+				1DCAE85E16A8F9380080224D /* build.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
