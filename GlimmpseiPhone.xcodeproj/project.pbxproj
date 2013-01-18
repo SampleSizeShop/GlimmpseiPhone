@@ -17,8 +17,6 @@
 		1D1AF14E169FBD3300EFE240 /* GlimmpseIcon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */; };
 		1D1AF152169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */; };
 		1D1AF154169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF153169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png */; };
-		1D1AF164169FD0C100EFE240 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF163169FD0C000EFE240 /* Default-568h@2x.png */; };
-		1D1AF166169FD10500EFE240 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF165169FD10500EFE240 /* Default@2x.png */; };
 		1D1AF16F169FF87400EFE240 /* LICENSE-gpl2.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF16E169FF87400EFE240 /* LICENSE-gpl2.0.txt */; };
 		1D28F964169AA25F00512BEC /* GlimmpseSolvingForViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */; };
 		1D28F968169AA79000512BEC /* GlimmpsePowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F967169AA79000512BEC /* GlimmpsePowerViewController.m */; };
@@ -72,7 +70,6 @@
 		1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseIcon114x114.png; sourceTree = "<group>"; };
 		1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWebServiceCommonObjectiveC.a; path = "../../Library/Developer/Xcode/DerivedData/GlimmpseiPhoneWorkspace-ciznlnrtmytqmobnhwsjfnfxpziu/Build/Products/Debug-iphoneos/libWebServiceCommonObjectiveC.a"; sourceTree = "<group>"; };
 		1D1AF153169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseLaunchImage320x480.png; sourceTree = "<group>"; };
-		1D1AF163169FD0C000EFE240 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1D1AF165169FD10500EFE240 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1D1AF16E169FF87400EFE240 /* LICENSE-gpl2.0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-gpl2.0.txt"; sourceTree = "<group>"; };
 		1D1AF18816A00B8E00EFE240 /* DevelopmentGlueckLabAdHocProfile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = DevelopmentGlueckLabAdHocProfile.mobileprovision; sourceTree = "<group>"; };
@@ -563,8 +560,6 @@
 				1D1AF14A169FBCCD00EFE240 /* GlimmpseIcon57x57.png in Resources */,
 				1D1AF14E169FBD3300EFE240 /* GlimmpseIcon114x114.png in Resources */,
 				1D1AF154169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png in Resources */,
-				1D1AF164169FD0C100EFE240 /* Default-568h@2x.png in Resources */,
-				1D1AF166169FD10500EFE240 /* Default@2x.png in Resources */,
 				1D1AF16F169FF87400EFE240 /* LICENSE-gpl2.0.txt in Resources */,
 				5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */,
 			);
