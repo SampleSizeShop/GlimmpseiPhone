@@ -53,7 +53,6 @@
 		1D80BB2E168F486700EDE79B /* GlimmpseDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB2D168F486700EDE79B /* GlimmpseDesignViewController.m */; };
 		1D80BB31168F487500EDE79B /* GlimmpseAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB30168F487500EDE79B /* GlimmpseAboutUsViewController.m */; };
 		1DCAE85E16A8F9380080224D /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAE85D16A8F9380080224D /* build.sh */; };
-		1DCAE86116A8F9BA0080224D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAE86016A8F9BA0080224D /* Default-568h@2x.png */; };
 		1DF18D3F16A903010084B0EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF18D3E16A903010084B0EA /* Default@2x.png */; };
 		5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5856A6EF16A0B715004C9CD4 /* GLIMMPSELiteDescription.txt */; };
 		58AD397F169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */; };
@@ -569,7 +568,6 @@
 				1D1AF16F169FF87400EFE240 /* LICENSE-gpl2.0.txt in Resources */,
 				5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */,
 				1DCAE85E16A8F9380080224D /* build.sh in Resources */,
-				1DCAE86116A8F9BA0080224D /* Default-568h@2x.png in Resources */,
 				1DF18D3F16A903010084B0EA /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
