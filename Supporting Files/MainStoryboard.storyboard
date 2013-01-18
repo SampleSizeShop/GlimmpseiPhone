@@ -1274,7 +1274,7 @@ Additional documentation, publications, and related software products are availa
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4YR-Hg-H7I">
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="87" id="aXJ-KA-r50"/>
+                                            <constraint firstAttribute="height" constant="100" id="dZ8-fT-9m8"/>
                                             <constraint firstAttribute="width" constant="282" id="fzt-O1-4Ex"/>
                                         </constraints>
                                         <string key="text">Specify the number of study participants in the smallest group. You may choose up to four values: power or total sample size will be calculated for each value you choose.</string>
@@ -1343,33 +1343,33 @@ Additional documentation, publications, and related software products are availa
                                     </textField>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Lm2-1U-KMJ" firstAttribute="leading" secondItem="z1i-fg-WGq" secondAttribute="leading" constant="5" id="0Er-VH-Ca9"/>
                                     <constraint firstItem="FT7-Pv-rjl" firstAttribute="leading" secondItem="OSB-nX-Gqc" secondAttribute="leading" type="default" id="1CG-H1-by4"/>
-                                    <constraint firstAttribute="bottom" secondItem="Lm2-1U-KMJ" secondAttribute="bottom" constant="462" id="4Ol-aO-22R"/>
-                                    <constraint firstItem="OSB-nX-Gqc" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="119" id="7R8-le-jJH"/>
                                     <constraint firstItem="ocM-cQ-Stw" firstAttribute="trailing" secondItem="X7V-YG-K1p" secondAttribute="trailing" type="default" id="8eQ-7u-x0W"/>
-                                    <constraint firstItem="FT7-Pv-rjl" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="177" id="E1I-16-A05"/>
                                     <constraint firstAttribute="trailing" secondItem="4YR-Hg-H7I" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="E47-C3-mgl"/>
+                                    <constraint firstItem="FT7-Pv-rjl" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="187" id="ELR-is-NtL"/>
+                                    <constraint firstItem="YMl-Qf-XCv" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="288" id="EaE-GY-g2f"/>
                                     <constraint firstItem="X7V-YG-K1p" firstAttribute="leading" secondItem="iS1-Dr-CSA" secondAttribute="leading" type="default" id="Fk0-3g-DxN"/>
                                     <constraint firstItem="FT7-Pv-rjl" firstAttribute="leading" secondItem="wwA-JP-lqE" secondAttribute="leading" type="default" id="GXV-Y1-ysc"/>
-                                    <constraint firstItem="Lm2-1U-KMJ" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="101" id="K6K-o1-rGd"/>
-                                    <constraint firstItem="X7V-YG-K1p" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="173" id="UOJ-7y-Zye"/>
+                                    <constraint firstAttribute="bottom" secondItem="Lm2-1U-KMJ" secondAttribute="bottom" constant="455" id="IYR-6i-nYu"/>
+                                    <constraint firstItem="Lm2-1U-KMJ" firstAttribute="leading" secondItem="z1i-fg-WGq" secondAttribute="leading" constant="8" id="J97-bj-CnT"/>
+                                    <constraint firstItem="ocM-cQ-Stw" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="235" id="MFE-gW-HYV"/>
+                                    <constraint firstItem="Lm2-1U-KMJ" firstAttribute="centerX" secondItem="4YR-Hg-H7I" secondAttribute="centerX" type="default" id="WHH-o0-vRK"/>
                                     <constraint firstItem="YMl-Qf-XCv" firstAttribute="trailing" secondItem="ocM-cQ-Stw" secondAttribute="trailing" type="default" id="Ztu-qT-ISm"/>
                                     <constraint firstItem="iS1-Dr-CSA" firstAttribute="leading" secondItem="z1i-fg-WGq" secondAttribute="leading" constant="232" id="bK0-4w-b8Z"/>
                                     <constraint firstItem="iS1-Dr-CSA" firstAttribute="trailing" secondItem="X7V-YG-K1p" secondAttribute="trailing" type="default" id="bTb-2K-b1F"/>
                                     <constraint firstItem="wwA-JP-lqE" firstAttribute="leading" secondItem="8at-Ts-7IW" secondAttribute="leading" type="default" id="cO5-j4-gNO"/>
+                                    <constraint firstItem="Lm2-1U-KMJ" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="108" id="csl-d9-1Ll"/>
                                     <constraint firstItem="wwA-JP-lqE" firstAttribute="baseline" secondItem="ocM-cQ-Stw" secondAttribute="baseline" type="default" id="eBD-eg-Lz3"/>
+                                    <constraint firstItem="OSB-nX-Gqc" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="134" id="fwQ-eO-ray"/>
+                                    <constraint firstItem="8at-Ts-7IW" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="292" id="g9s-SZ-K0q"/>
                                     <constraint firstItem="OSB-nX-Gqc" firstAttribute="leading" secondItem="z1i-fg-WGq" secondAttribute="leading" constant="29" id="gM9-Mm-hyK"/>
                                     <constraint firstItem="OSB-nX-Gqc" firstAttribute="baseline" secondItem="iS1-Dr-CSA" secondAttribute="baseline" type="default" id="hkd-mI-eK5"/>
-                                    <constraint firstItem="4YR-Hg-H7I" firstAttribute="leading" secondItem="z1i-fg-WGq" secondAttribute="leading" constant="18" id="k9f-p8-Yjj"/>
-                                    <constraint firstItem="YMl-Qf-XCv" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="285" id="llr-Lo-JBR"/>
+                                    <constraint firstItem="X7V-YG-K1p" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="183" id="jFH-ep-GLP"/>
                                     <constraint firstItem="X7V-YG-K1p" firstAttribute="baseline" secondItem="FT7-Pv-rjl" secondAttribute="baseline" type="default" id="mG2-lW-Oro"/>
-                                    <constraint firstItem="ocM-cQ-Stw" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="229" id="nbK-Xd-fwb"/>
                                     <constraint firstItem="ocM-cQ-Stw" firstAttribute="leading" secondItem="YMl-Qf-XCv" secondAttribute="leading" type="default" id="pha-0A-Nba"/>
                                     <constraint firstItem="4YR-Hg-H7I" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="11" id="qH4-QM-VMa"/>
-                                    <constraint firstItem="YMl-Qf-XCv" firstAttribute="baseline" secondItem="8at-Ts-7IW" secondAttribute="baseline" type="default" id="u0O-Gp-cS0"/>
                                     <constraint firstItem="ocM-cQ-Stw" firstAttribute="leading" secondItem="X7V-YG-K1p" secondAttribute="leading" type="default" id="wvz-SK-w1R"/>
-                                    <constraint firstItem="iS1-Dr-CSA" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="115" id="zBD-V9-zHx"/>
+                                    <constraint firstItem="iS1-Dr-CSA" firstAttribute="top" secondItem="z1i-fg-WGq" secondAttribute="top" constant="130" id="wy1-gv-TZV"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
