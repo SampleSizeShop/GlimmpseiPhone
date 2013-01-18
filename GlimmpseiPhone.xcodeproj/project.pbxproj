@@ -17,8 +17,6 @@
 		1D1AF14E169FBD3300EFE240 /* GlimmpseIcon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */; };
 		1D1AF152169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */; };
 		1D1AF154169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF153169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png */; };
-		1D1AF164169FD0C100EFE240 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF163169FD0C000EFE240 /* Default-568h@2x.png */; };
-		1D1AF166169FD10500EFE240 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF165169FD10500EFE240 /* Default@2x.png */; };
 		1D1AF16F169FF87400EFE240 /* LICENSE-gpl2.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1D1AF16E169FF87400EFE240 /* LICENSE-gpl2.0.txt */; };
 		1D28F964169AA25F00512BEC /* GlimmpseSolvingForViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F963169AA25F00512BEC /* GlimmpseSolvingForViewController.m */; };
 		1D28F968169AA79000512BEC /* GlimmpsePowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D28F967169AA79000512BEC /* GlimmpsePowerViewController.m */; };
@@ -54,6 +52,8 @@
 		1D80BB2A168F485B00EDE79B /* GlimmpseTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB29168F485B00EDE79B /* GlimmpseTutorialViewController.m */; };
 		1D80BB2E168F486700EDE79B /* GlimmpseDesignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB2D168F486700EDE79B /* GlimmpseDesignViewController.m */; };
 		1D80BB31168F487500EDE79B /* GlimmpseAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D80BB30168F487500EDE79B /* GlimmpseAboutUsViewController.m */; };
+		1DCAE85E16A8F9380080224D /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAE85D16A8F9380080224D /* build.sh */; };
+		1DF18D3F16A903010084B0EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF18D3E16A903010084B0EA /* Default@2x.png */; };
 		5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5856A6EF16A0B715004C9CD4 /* GLIMMPSELiteDescription.txt */; };
 		58AD397F169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */; };
 		58AD3982169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */; };
@@ -72,8 +72,6 @@
 		1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseIcon114x114.png; sourceTree = "<group>"; };
 		1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWebServiceCommonObjectiveC.a; path = "../../Library/Developer/Xcode/DerivedData/GlimmpseiPhoneWorkspace-ciznlnrtmytqmobnhwsjfnfxpziu/Build/Products/Debug-iphoneos/libWebServiceCommonObjectiveC.a"; sourceTree = "<group>"; };
 		1D1AF153169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlimmpseLaunchImage320x480.png; sourceTree = "<group>"; };
-		1D1AF163169FD0C000EFE240 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1D1AF165169FD10500EFE240 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1D1AF16E169FF87400EFE240 /* LICENSE-gpl2.0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENSE-gpl2.0.txt"; sourceTree = "<group>"; };
 		1D1AF18816A00B8E00EFE240 /* DevelopmentGlueckLabAdHocProfile.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = DevelopmentGlueckLabAdHocProfile.mobileprovision; sourceTree = "<group>"; };
 		1D28F962169AA25F00512BEC /* GlimmpseSolvingForViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseSolvingForViewController.h; sourceTree = "<group>"; };
@@ -187,7 +185,7 @@
 		1D7FC833169BAB9900DD0475 /* WebServiceCommonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceCommonLib.h; sourceTree = "<group>"; };
 		1D7FC84A169BBCC300DD0475 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1D7FC84C169BBCD400DD0475 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1D80BACC168DBE5E00EDE79B /* GlimmpseiPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlimmpseiPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glimmpse Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D80BAD0168DBE5E00EDE79B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1D80BAD2168DBE5E00EDE79B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D80BAD4168DBE5E00EDE79B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -207,6 +205,9 @@
 		1D80BB2D168F486700EDE79B /* GlimmpseDesignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseDesignViewController.m; sourceTree = "<group>"; };
 		1D80BB2F168F487500EDE79B /* GlimmpseAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlimmpseAboutUsViewController.h; sourceTree = "<group>"; };
 		1D80BB30168F487500EDE79B /* GlimmpseAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlimmpseAboutUsViewController.m; sourceTree = "<group>"; };
+		1DCAE85D16A8F9380080224D /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+		1DCAE86016A8F9BA0080224D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1DF18D3E16A903010084B0EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Default@2x.png"; sourceTree = "<group>"; };
 		5856A6EF16A0B715004C9CD4 /* GLIMMPSELiteDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GLIMMPSELiteDescription.txt; sourceTree = "<group>"; };
 		58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EqualGroupSizeOneWayANOVA.json; sourceTree = "<group>"; };
 		58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GLIMMPSELiteStudyDesign.json; sourceTree = "<group>"; };
@@ -366,7 +367,7 @@
 		1D80BACD168DBE5E00EDE79B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D80BACC168DBE5E00EDE79B /* GlimmpseiPhone.app */,
+				1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -463,11 +464,11 @@
 			isa = PBXGroup;
 			children = (
 				1D2E735A169BFB11005260CC /* GlimmpseIconNoBG48x48.png */,
-				1D1AF165169FD10500EFE240 /* Default@2x.png */,
-				1D1AF163169FD0C000EFE240 /* Default-568h@2x.png */,
 				1D1AF145169FB53000EFE240 /* complete_icon.png */,
+				1DF18D3E16A903010084B0EA /* Default@2x.png */,
 				1D1AF143169FB52A00EFE240 /* aboutus.png */,
 				1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */,
+				1DCAE86016A8F9BA0080224D /* Default-568h@2x.png */,
 				1D1AF14D169FBD3300EFE240 /* GlimmpseIcon114x114.png */,
 				1D1AF147169FB53500EFE240 /* incomplete_icon.png */,
 				1D1AF153169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png */,
@@ -482,6 +483,7 @@
 		1D80BB0E168DBFAC00EDE79B /* Build */ = {
 			isa = PBXGroup;
 			children = (
+				1DCAE85D16A8F9380080224D /* build.sh */,
 			);
 			path = Build;
 			sourceTree = "<group>";
@@ -497,9 +499,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D80BACB168DBE5E00EDE79B /* GlimmpseiPhone */ = {
+		1D80BACB168DBE5E00EDE79B /* Glimmpse Lite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "GlimmpseiPhone" */;
+			buildConfigurationList = 1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "Glimmpse Lite" */;
 			buildPhases = (
 				1D80BAC8168DBE5E00EDE79B /* Sources */,
 				1D80BAC9168DBE5E00EDE79B /* Frameworks */,
@@ -509,9 +511,9 @@
 			);
 			dependencies = (
 			);
-			name = GlimmpseiPhone;
+			name = "Glimmpse Lite";
 			productName = GlimmpseiPhone;
-			productReference = 1D80BACC168DBE5E00EDE79B /* GlimmpseiPhone.app */;
+			productReference = 1D80BACC168DBE5E00EDE79B /* Glimmpse Lite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -536,7 +538,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D80BACB168DBE5E00EDE79B /* GlimmpseiPhone */,
+				1D80BACB168DBE5E00EDE79B /* Glimmpse Lite */,
 			);
 		};
 /* End PBXProject section */
@@ -563,10 +565,10 @@
 				1D1AF14A169FBCCD00EFE240 /* GlimmpseIcon57x57.png in Resources */,
 				1D1AF14E169FBD3300EFE240 /* GlimmpseIcon114x114.png in Resources */,
 				1D1AF154169FBDC900EFE240 /* GlimmpseLaunchImage320x480.png in Resources */,
-				1D1AF164169FD0C100EFE240 /* Default-568h@2x.png in Resources */,
-				1D1AF166169FD10500EFE240 /* Default@2x.png in Resources */,
 				1D1AF16F169FF87400EFE240 /* LICENSE-gpl2.0.txt in Resources */,
 				5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */,
+				1DCAE85E16A8F9380080224D /* build.sh in Resources */,
+				1DF18D3F16A903010084B0EA /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,21 +660,7 @@
 		1D80BAF1168DBE5E00EDE79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
-				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		1D80BAF2168DBE5E00EDE79B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aarti Munjal";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
@@ -680,7 +668,25 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E0F14FA1-B546-4F58-AB58-5AC71C22A744";
+				PROVISIONING_PROFILE = "CBAA37CF-F4F6-4FFF-805E-CFE6080E0ADD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CBAA37CF-F4F6-4FFF-805E-CFE6080E0ADD";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D80BAF2168DBE5E00EDE79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Aarti Munjal";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
+				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "CBAA37CF-F4F6-4FFF-805E-CFE6080E0ADD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CBAA37CF-F4F6-4FFF-805E-CFE6080E0ADD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -697,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "GlimmpseiPhone" */ = {
+		1D80BAF0168DBE5E00EDE79B /* Build configuration list for PBXNativeTarget "Glimmpse Lite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D80BAF1168DBE5E00EDE79B /* Debug */,
