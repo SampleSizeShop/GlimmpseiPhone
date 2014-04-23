@@ -525,6 +525,11 @@
 				CLASSPREFIX = Glimmpse;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "University of Colorado Denver";
+				TargetAttributes = {
+					1D80BACB168DBE5E00EDE79B = {
+						DevelopmentTeam = TX5YG299LY;
+					};
+				};
 			};
 			buildConfigurationList = 1D80BAC6168DBE5E00EDE79B /* Build configuration list for PBXProject "GlimmpseiPhone" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -660,16 +665,17 @@
 		1D80BAF1168DBE5E00EDE79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Aarti Munjal";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "CBAA37CF-F4F6-4FFF-805E-CFE6080E0ADD";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CBAA37CF-F4F6-4FFF-805E-CFE6080E0ADD";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3951C1FE-2615-4367-A2D4-E6B6E9B43A8F";
+				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -677,16 +683,17 @@
 		1D80BAF2168DBE5E00EDE79B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Aarti Munjal";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aarti Munjal (U6E8Z8X6D9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/GlimmpseiPhone-Prefix.pch";
 				INFOPLIST_FILE = "Supporting Files/GlimmpseiPhone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "CBAA37CF-F4F6-4FFF-805E-CFE6080E0ADD";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CBAA37CF-F4F6-4FFF-805E-CFE6080E0ADD";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3951C1FE-2615-4367-A2D4-E6B6E9B43A8F";
+				WARNING_CFLAGS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

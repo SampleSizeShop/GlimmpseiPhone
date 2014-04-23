@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D80BACB168DBE5E00EDE79B"
-               BuildableName = "GlimmpseiPhone.app"
-               BlueprintName = "GlimmpseiPhone"
+               BuildableName = "Glimmpse Lite.app"
+               BlueprintName = "Glimmpse Lite"
                ReferencedContainer = "container:GlimmpseiPhone.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D80BACB168DBE5E00EDE79B"
-            BuildableName = "GlimmpseiPhone.app"
-            BlueprintName = "GlimmpseiPhone"
+            BuildableName = "Glimmpse Lite.app"
+            BlueprintName = "Glimmpse Lite"
             ReferencedContainer = "container:GlimmpseiPhone.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -52,8 +52,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D80BACB168DBE5E00EDE79B"
-            BuildableName = "GlimmpseiPhone.app"
-            BlueprintName = "GlimmpseiPhone"
+            BuildableName = "Glimmpse Lite.app"
+            BlueprintName = "Glimmpse Lite"
             ReferencedContainer = "container:GlimmpseiPhone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,8 +70,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D80BACB168DBE5E00EDE79B"
-            BuildableName = "GlimmpseiPhone.app"
-            BlueprintName = "GlimmpseiPhone"
+            BuildableName = "Glimmpse Lite.app"
+            BlueprintName = "Glimmpse Lite"
             ReferencedContainer = "container:GlimmpseiPhone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

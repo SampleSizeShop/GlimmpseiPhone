@@ -83,7 +83,7 @@
         [mailComposer setSubject:emailTitle];
         [mailComposer setMessageBody:messageBody isHTML:YES];
         [mailComposer setToRecipients:emailAddresses];
-        [self presentModalViewController:mailComposer animated:YES];
+        //[self presentModalViewController:mailComposer animated:YES];
     }
     else {
         
@@ -108,7 +108,7 @@
 {
     
     
-    [self dismissModalViewControllerAnimated:YES];
+    //[self dismissModalViewControllerAnimated:YES];
     contactButton.highlighted = YES;
     
 }

@@ -94,7 +94,7 @@
     [self valueSelected:numberOfGroupsPicker];
     appDelegate.numberOfGroups = numberOfGroupsSelected;
     //NSLog(@"The value selected is %@", _numberOfGroupsSelected);
-    appDelegate.numberOfGroupsSelected = [numberOfGroupsPicker selectedRowInComponent:0];
+    appDelegate.numberOfGroupsSelected = (int)[numberOfGroupsPicker selectedRowInComponent:0];
 }
 
 

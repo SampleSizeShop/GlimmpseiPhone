@@ -74,7 +74,7 @@
     self.navigationItem.rightBarButtonItem = fakeButtonItem;
     
     
-    if(appDelegate.solvingFor == @"Sample Size")
+    if([appDelegate.solvingFor  isEqual: @"Sample Size"])
     {
         self.segment.selectedSegmentIndex = 1;
     }
@@ -87,12 +87,12 @@
 - (IBAction)segmentChange:(id)sender
 {
     
-    selectedSegment = [segment selectedSegmentIndex];
+    selectedSegment = (int)[segment selectedSegmentIndex];
 }
 
 -(void)viewWillDisappear:(BOOL)animated
 {
-    selectedSegment = segment.selectedSegmentIndex;
+    selectedSegment = (int)segment.selectedSegmentIndex;
     if(selectedSegment == 0 && [appDelegate.solvingFor isEqualToString:@""])
     {
         appDelegate.solvingFor = @"Power";
