@@ -45,13 +45,13 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="GlimmpseIconNoBG48x48.png" translatesAutoresizingMaskIntoConstraints="NO" id="E9e-R8-qEA">
                                 <rect key="frame" x="252" y="-2" width="48" height="48"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYp-np-1Nm">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYp-np-1Nm">
                                 <rect key="frame" x="50" y="328" width="215" height="37"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.44021739129999998" green="0.077427841989999996" blue="0.12952229400000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <color key="tintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Start">
-                                    <color key="titleColor" red="0.44021739129999998" green="0.077427841989999996" blue="0.12952229400000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="startPressed:" destination="2" eventType="touchUpInside" id="21x-YS-c8Y"/>
@@ -65,7 +65,6 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                                     <color key="titleColor" red="0.44021739129999998" green="0.077427841989999996" blue="0.12952229400000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="selected" title="Tutorial"/>
                                 <connections>
                                     <action selector="learnMorePressed:" destination="2" eventType="touchUpInside" id="dSU-Dx-sgJ"/>
                                 </connections>
@@ -678,7 +677,7 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A9y-U2-JcN">
-                                <rect key="frame" x="63" y="376" width="232" height="2"/>
+                                <rect key="frame" x="51" y="376" width="232" height="2"/>
                                 <color key="progressTintColor" red="0.44021739129999998" green="0.077427841989999996" blue="0.12952229400000001" alpha="1" colorSpace="calibratedRGB"/>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2u-ym-qZg">
@@ -694,7 +693,7 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kri-Ho-J1C">
-                                <rect key="frame" x="79" y="384" width="193" height="21"/>
+                                <rect key="frame" x="73" y="384" width="193" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>

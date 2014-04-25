@@ -57,6 +57,7 @@
     [scrollerAboutUs setContentSize:CGSizeMake(320,700)];
     
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     
     
     [super viewDidLoad];
@@ -69,6 +70,7 @@
     [scrollerAboutUs setContentSize:CGSizeMake(320,700)];
     
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     
     [super viewDidAppear:YES];
     
@@ -83,6 +85,7 @@
 - (IBAction)FeedbackEmail:(id)sender {
     
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     
     if ([MFMailComposeViewController canSendMail]) {
         MFMailComposeViewController *mailComposer;
@@ -110,6 +113,7 @@
     }
     
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
 }
 
 /** This method handles returning to the current view after user is either done sending or cancel sending email.
@@ -121,6 +125,7 @@
     
     //[self dismissModalViewControllerAnimated:YES];
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     
 }
 

@@ -244,6 +244,7 @@
         UITextField *varianceValue = [varianceArray objectAtIndex:i];
         varianceValue.text = variance;
         varianceValue.userInteractionEnabled = NO;
+        
     }
     
     

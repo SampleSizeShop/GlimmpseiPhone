@@ -177,6 +177,9 @@
         calculateButton.userInteractionEnabled = YES;
         reset2Button.userInteractionEnabled = YES;
         calculateButton.highlighted = YES;
+        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+        calculateButton.highlighted = YES;
+        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
         calculateButton.hidden = NO;
         reset2Button.hidden = NO;
         resetButton.hidden = YES;
@@ -188,6 +191,7 @@
         calculateButton.hidden = YES;
         reset2Button.hidden = YES;
         resetButton.hidden = NO;
+        [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
         resetButton.userInteractionEnabled = YES;
         resetButton.highlighted = YES;
     }
@@ -260,6 +264,9 @@
         calculateButton.userInteractionEnabled = YES;
         reset2Button.userInteractionEnabled = YES;
         calculateButton.highlighted = YES;
+        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+        calculateButton.highlighted = YES;
+        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
         reset2Button.highlighted = YES;
         calculateButton.hidden = NO;
         reset2Button.hidden = NO;
@@ -273,6 +280,7 @@
         reset2Button.hidden = YES;
         resetButton.highlighted = YES;
         resetButton.hidden = NO;
+        [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     }
 
 }
@@ -307,6 +315,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -334,6 +345,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -361,6 +375,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -406,6 +423,9 @@
                         calculateButton.userInteractionEnabled = YES;
                         reset2Button.userInteractionEnabled = YES;
                         calculateButton.highlighted = YES;
+                        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                        calculateButton.highlighted = YES;
+                        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                         reset2Button.highlighted = YES;
                         calculateButton.hidden = NO;
                         reset2Button.hidden = NO;
@@ -483,6 +503,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -492,6 +515,7 @@
                 else {
                     resetButton.hidden = NO;
                     resetButton.highlighted = YES;
+                    [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
                 }
                 //}
             }
@@ -526,7 +550,9 @@
                     
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
                     calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -535,6 +561,7 @@
                 else {
                     resetButton.hidden = NO;
                     resetButton.highlighted = YES;
+                    [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
                 }
             }
             
@@ -562,6 +589,9 @@
                 calculateButton.userInteractionEnabled = YES;
                 reset2Button.userInteractionEnabled = YES;
                 calculateButton.highlighted = YES;
+                [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                calculateButton.highlighted = YES;
+                [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                 reset2Button.highlighted = YES;
                 calculateButton.hidden = NO;
                 reset2Button.hidden = NO;
@@ -589,6 +619,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -598,6 +631,7 @@
                 else {
                     resetButton.hidden = NO;
                     resetButton.highlighted = YES;
+                    [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
                 }
             }
         }// end if indexPath = 2
@@ -620,6 +654,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -658,6 +695,9 @@
                         calculateButton.userInteractionEnabled = YES;
                         reset2Button.userInteractionEnabled = YES;
                         calculateButton.highlighted = YES;
+                        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                        calculateButton.highlighted = YES;
+                        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                         reset2Button.highlighted = YES;
                         calculateButton.hidden = NO;
                         reset2Button.hidden = NO;
@@ -706,6 +746,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -744,6 +787,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -772,6 +818,9 @@
                 calculateButton.userInteractionEnabled = YES;
                 reset2Button.userInteractionEnabled = YES;
                 calculateButton.highlighted = YES;
+                [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                calculateButton.highlighted = YES;
+                [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                 reset2Button.highlighted = YES;
                 calculateButton.hidden = NO;
                 reset2Button.hidden = NO;
@@ -798,6 +847,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -824,6 +876,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -867,6 +922,9 @@
                         calculateButton.userInteractionEnabled = YES;
                         reset2Button.userInteractionEnabled = YES;
                         calculateButton.highlighted = YES;
+                        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                        calculateButton.highlighted = YES;
+                        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                         reset2Button.highlighted = YES;
                         calculateButton.hidden = NO;
                         reset2Button.hidden = NO;
@@ -914,6 +972,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
                     reset2Button.highlighted = YES;
@@ -1520,6 +1581,9 @@
         calculateButton.userInteractionEnabled = YES;
         calculateButton.highlighted = YES;
         reset2Button.userInteractionEnabled = YES;
+        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+        calculateButton.highlighted = YES;
+        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
         
         [self.view setUserInteractionEnabled:YES];
     }] start];
@@ -1623,7 +1687,7 @@
         reset2Button.hidden = YES;
         calculateButton.hidden = YES;
         resetButton.hidden = NO;
-        
+        [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
         [self viewWillAppear:YES];
         
         
