@@ -87,6 +87,14 @@
     
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [scrollerSmallestGroupSize setScrollEnabled:YES];
+    [scrollerSmallestGroupSize setContentSize:CGSizeMake(320,850)];
+    [super viewDidAppear:YES];
+
+}
+
 
 -(void)viewWillAppear:(BOOL)animated
 {

@@ -1559,7 +1559,7 @@
 - (IBAction)resetPressed {
     
     UIAlertView *messageAlert = [[UIAlertView alloc]
-                                 initWithTitle:@"RESET" message:@"Sure you want to Reset the design?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK",nil];
+                                 initWithTitle:@"Confirm Reset" message:@"This action will clear any unsaved study design information. Continue?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes",nil];
     [messageAlert show];
     
 }

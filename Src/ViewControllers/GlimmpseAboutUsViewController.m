@@ -63,6 +63,17 @@
 	// Do any additional setup after loading the view.
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [scrollerAboutUs setScrollEnabled:YES];
+    [scrollerAboutUs setContentSize:CGSizeMake(320,700)];
+    
+    contactButton.highlighted = YES;
+    
+    [super viewDidAppear:YES];
+    
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

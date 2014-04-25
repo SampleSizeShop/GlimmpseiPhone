@@ -170,6 +170,8 @@
 
 -(void) viewWillDisappear:(BOOL)animated
 {
+    
+    
     //NSLog(@"Inside WillDisappear");
     NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
     [f setLocale:[NSLocale currentLocale]];
@@ -211,6 +213,11 @@
 
 -(void) viewDidAppear:(BOOL)animated
 {
+    
+    [relativeScroll setScrollEnabled:YES];
+    [relativeScroll setContentSize:CGSizeMake(320,850)];
+    
+    
     NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
     [f setLocale:[NSLocale currentLocale]];
     [f setNumberStyle:NSNumberFormatterDecimalStyle];

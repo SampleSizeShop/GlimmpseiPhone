@@ -201,6 +201,12 @@
 	
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [meansVarianceScroll setScrollEnabled:YES];
+    [meansVarianceScroll setContentSize:CGSizeMake(320,1200)];
+}
+
 -(void) viewWillAppear:(BOOL)animated
 {
     

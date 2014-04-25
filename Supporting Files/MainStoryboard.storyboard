@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
+        <deployment version="1552" defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
@@ -10,8 +10,8 @@
             <objects>
                 <viewController id="2" customClass="GlimmpseViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WKV-EJ-7CH"/>
-                        <viewControllerLayoutGuide type="bottom" id="Tw2-wB-gh9"/>
+                        <viewControllerLayoutGuide type="top" id="ooY-zw-q91"/>
+                        <viewControllerLayoutGuide type="bottom" id="HFc-zu-cuP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -113,7 +113,7 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Getting Started" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Igm-G6-szJ">
-                                                    <rect key="frame" x="6" y="0.0" width="126" height="57"/>
+                                                    <rect key="frame" x="6" y="4" width="126" height="57"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -137,7 +137,7 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Solving For" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XRI-su-g5l">
-                                                    <rect key="frame" x="9" y="0.0" width="111" height="57"/>
+                                                    <rect key="frame" x="4" y="4" width="111" height="57"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -161,7 +161,7 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Power" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eXh-fg-2qg">
-                                                    <rect key="frame" x="-6" y="0.0" width="111" height="37"/>
+                                                    <rect key="frame" x="-12" y="-2" width="111" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -209,7 +209,7 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Number of Groups" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="U9o-Cr-dRm">
-                                                    <rect key="frame" x="6" y="0.0" width="149" height="37"/>
+                                                    <rect key="frame" x="10" y="0.0" width="149" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
@@ -340,15 +340,15 @@ Florida (Keith Muller, PI; Deborah Glueck, University of Colorado site PI).</str
             <objects>
                 <viewController id="xhy-xU-c5s" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="UnL-uQ-HBn"/>
-                        <viewControllerLayoutGuide type="bottom" id="MNH-61-11U"/>
+                        <viewControllerLayoutGuide type="top" id="W07-9X-u4c"/>
+                        <viewControllerLayoutGuide type="bottom" id="vAq-BJ-yBd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tdS-aU-rIT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcO-6q-Uxg">
-                                <rect key="frame" x="20" y="69" width="285" height="386"/>
+                                <rect key="frame" x="20" y="68" width="285" height="386"/>
                                 <mutableString key="text">GLIMMPSE Lite calculates power and sample size for ANOVA. To perform a calculation, you will need to: 
 
 - Indicate if you would like to solve for power or sample size. 
@@ -380,15 +380,15 @@ After inputting the study design, click the "Calculate" button to obtain your re
             <objects>
                 <viewController title="Power" id="8Ym-XU-VBn" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="d3X-Th-wtN"/>
-                        <viewControllerLayoutGuide type="bottom" id="3la-Rv-QQJ"/>
+                        <viewControllerLayoutGuide type="top" id="93C-P0-aKa"/>
+                        <viewControllerLayoutGuide type="bottom" id="jC1-bT-AW8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aOX-GB-hJm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOA-4s-gUH">
-                                <rect key="frame" x="26" y="73" width="280" height="254"/>
+                                <rect key="frame" x="29" y="87" width="280" height="254"/>
                                 <string key="text">If you are solving for sample size, you will need to specify the desired power level for your study. 
 
 On the Power screen, select the desired power level in the study. 
@@ -411,8 +411,8 @@ You may choose up to four values: power or total sample size will be calculated 
             <objects>
                 <viewController title="Smallest Group Size" id="g47-7X-02F" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="g6z-lf-fXI"/>
-                        <viewControllerLayoutGuide type="bottom" id="vah-db-FoI"/>
+                        <viewControllerLayoutGuide type="top" id="E1p-Ne-Ho7"/>
+                        <viewControllerLayoutGuide type="bottom" id="WRp-d0-1eK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="35B-jf-Wzk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -442,8 +442,8 @@ You may choose up to four values: power or total sample size will be calculated 
             <objects>
                 <viewController title="Type I Error Rate" id="q0S-VL-87l" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mMa-1W-6OB"/>
-                        <viewControllerLayoutGuide type="bottom" id="v1Q-lD-Dt6"/>
+                        <viewControllerLayoutGuide type="top" id="6W4-C1-d2l"/>
+                        <viewControllerLayoutGuide type="bottom" id="C0v-hX-JH6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Cag-jJ-IHK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -471,8 +471,8 @@ The Type I error screen allows you to specify a single Type I error rate. Use th
             <objects>
                 <viewController title="Means and Variance" id="5OD-n3-ghE" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pVI-91-KQ6"/>
-                        <viewControllerLayoutGuide type="bottom" id="5tm-eI-LCH"/>
+                        <viewControllerLayoutGuide type="top" id="GkG-4h-epk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Chb-RZ-FJu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="FvD-7p-9Su">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -500,8 +500,8 @@ To access the Means and Variance screen, you will first need to specify the numb
             <objects>
                 <viewController title="Relative Group Size" id="345-tW-VWZ" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5Ub-UT-Cw4"/>
-                        <viewControllerLayoutGuide type="bottom" id="nG1-CB-YU7"/>
+                        <viewControllerLayoutGuide type="top" id="EO1-fe-cTa"/>
+                        <viewControllerLayoutGuide type="bottom" id="aa3-GO-PWn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fap-kF-2aY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -531,8 +531,8 @@ For unequal group sizes, specify the ratio of the group sizes. For example, cons
             <objects>
                 <viewController title="Number of Groups" id="8Sa-zj-dYq" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cPU-nZ-mMw"/>
-                        <viewControllerLayoutGuide type="bottom" id="tMn-0b-Feb"/>
+                        <viewControllerLayoutGuide type="top" id="wLs-Aa-hHE"/>
+                        <viewControllerLayoutGuide type="bottom" id="pQf-99-fVX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lML-jB-ePa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -560,8 +560,8 @@ GLIMMPSE Lite currently supports designs with up to ten groups.</string>
             <objects>
                 <viewController title="Solving For" id="FEe-Mt-HGs" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="EdB-YV-r8u"/>
-                        <viewControllerLayoutGuide type="bottom" id="jng-y5-2gG"/>
+                        <viewControllerLayoutGuide type="top" id="80K-VB-qVP"/>
+                        <viewControllerLayoutGuide type="bottom" id="T4G-Wc-Ywl"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Heb-Aj-xka">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -591,8 +591,8 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
             <objects>
                 <viewController storyboardIdentifier="designSolvingForViewController" title="Solving For" id="Nma-Rz-Qrl" customClass="GlimmpseSolvingForViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pR9-Kc-65u"/>
-                        <viewControllerLayoutGuide type="bottom" id="cQ6-8P-Y8p"/>
+                        <viewControllerLayoutGuide type="top" id="b6u-2g-p0y"/>
+                        <viewControllerLayoutGuide type="bottom" id="sr3-6h-fJS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Udn-f6-dnj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -639,22 +639,22 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ycF-7k-RoE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="172" y="440"/>
+            <point key="canvasLocation" x="194" y="52"/>
         </scene>
         <!--Glimmpse Design View Controller - Design-->
         <scene sceneID="RMq-iS-Vxk">
             <objects>
                 <viewController storyboardIdentifier="GlimmpseDesignViewController" id="VqK-lV-gc7" customClass="GlimmpseDesignViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="93b-m2-TMT"/>
-                        <viewControllerLayoutGuide type="bottom" id="fn5-8C-Kz5"/>
+                        <viewControllerLayoutGuide type="top" id="Sdk-Sk-x4L"/>
+                        <viewControllerLayoutGuide type="bottom" id="CFP-HQ-kD3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="v2s-Ox-uwV">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilb-t9-nCr">
-                                <rect key="frame" x="102" y="69" width="116" height="40"/>
+                                <rect key="frame" x="89" y="56" width="116" height="40"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <color key="tintColor" red="0.44021739129999998" green="0.077427841989999996" blue="0.12952229400000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Reset">
@@ -666,10 +666,10 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4b-3k-kCg">
-                                <rect key="frame" x="224" y="71" width="73" height="38"/>
+                                <rect key="frame" x="220" y="53" width="75" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <color key="tintColor" red="0.44021739129999998" green="0.077427841989999996" blue="0.12952229400000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Clear">
+                                <state key="normal" title="Reset">
                                     <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -678,11 +678,11 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A9y-U2-JcN">
-                                <rect key="frame" x="51" y="518" width="232" height="2"/>
+                                <rect key="frame" x="63" y="376" width="232" height="2"/>
                                 <color key="progressTintColor" red="0.44021739129999998" green="0.077427841989999996" blue="0.12952229400000001" alpha="1" colorSpace="calibratedRGB"/>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2u-ym-qZg">
-                                <rect key="frame" x="51" y="69" width="165" height="41"/>
+                                <rect key="frame" x="47" y="53" width="165" height="41"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Calculate">
@@ -693,14 +693,14 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                                     <action selector="calculatePressed:" destination="VqK-lV-gc7" eventType="touchUpInside" id="f4e-00-AEF"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kri-Ho-J1C">
-                                <rect key="frame" x="146" y="537" width="42" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kri-Ho-J1C">
+                                <rect key="frame" x="79" y="384" width="193" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WZb-fH-ZKQ">
-                                <rect key="frame" x="0.0" y="118" width="320" height="266"/>
+                                <rect key="frame" x="0.0" y="102" width="320" height="266"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="dataSource" destination="VqK-lV-gc7" id="ftG-cw-aZ4"/>
@@ -730,15 +730,15 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zz5-3U-SCB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="792" y="480"/>
+            <point key="canvasLocation" x="756" y="42"/>
         </scene>
         <!--Glimmpse About Us View Controller - About   Us-->
         <scene sceneID="fNd-TS-muS">
             <objects>
                 <viewController storyboardIdentifier="GlimmpseAboutUsViewController" title="About   Us" id="fAf-r9-p4r" customClass="GlimmpseAboutUsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="b8P-py-cuG"/>
-                        <viewControllerLayoutGuide type="bottom" id="uKj-7a-hHb"/>
+                        <viewControllerLayoutGuide type="top" id="sa3-1W-IRD"/>
+                        <viewControllerLayoutGuide type="bottom" id="WCc-FB-izq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bwf-xo-eA5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -759,19 +759,8 @@ If you have fewer restrictions on recruitment and would like to ensure a well-po
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="GlimmpseIconNoBG48x48.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Ga-qx-WYd">
                                 <rect key="frame" x="260" y="-3" width="46" height="47"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmV-1x-YFr">
-                                <rect key="frame" x="95" y="510" width="129" height="44"/>
-                                <color key="tintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Contact Us">
-                                    <color key="titleColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="FeedbackEmail:" destination="fAf-r9-p4r" eventType="touchUpInside" id="TJc-Rl-EwK"/>
-                                </connections>
-                            </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EZH-aP-EZQ">
-                                <rect key="frame" x="0.0" y="52" width="325" height="439"/>
+                                <rect key="frame" x="0.0" y="44" width="325" height="420"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yaT-ib-FlQ">
                                         <rect key="frame" x="7" y="19" width="311" height="416"/>
@@ -794,6 +783,17 @@ Additional documentation, publications, and related software products are availa
                                     </textView>
                                 </subviews>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmV-1x-YFr">
+                                <rect key="frame" x="84" y="465" width="124" height="31"/>
+                                <color key="tintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Contact Us">
+                                    <color key="titleColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="FeedbackEmail:" destination="fAf-r9-p4r" eventType="touchUpInside" id="TJc-Rl-EwK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -812,15 +812,15 @@ Additional documentation, publications, and related software products are availa
             <objects>
                 <viewController storyboardIdentifier="powerViewController" title="Power" id="XHf-PH-gv8" customClass="GlimmpsePowerViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="pyW-3O-wIT"/>
-                        <viewControllerLayoutGuide type="bottom" id="haN-PN-Yaa"/>
+                        <viewControllerLayoutGuide type="top" id="QwH-5F-rP4"/>
+                        <viewControllerLayoutGuide type="bottom" id="C1n-Li-LON"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4io-mO-dyL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hh-aE-0al">
-                                <rect key="frame" x="26" y="30" width="280" height="101"/>
+                                <rect key="frame" x="26" y="48" width="280" height="101"/>
                                 <string key="text">Please select the desired power for your  study. You may select up to four values: power or total sample size will be calculated for each value you choose.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -904,15 +904,15 @@ Additional documentation, publications, and related software products are availa
             <objects>
                 <viewController storyboardIdentifier="designTypeIErrorRate" title="Type I Error" id="v5X-Tu-igC" customClass="GlimmpseTypeIErrorViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="irj-3v-FWN"/>
-                        <viewControllerLayoutGuide type="bottom" id="Oup-e9-C6V"/>
+                        <viewControllerLayoutGuide type="top" id="PqU-Ft-nef"/>
+                        <viewControllerLayoutGuide type="bottom" id="bx2-TA-aOQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="RZW-KV-OWm">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Enter the Type I error rate for the analysis." translatesAutoresizingMaskIntoConstraints="NO" id="qKU-4M-NCi">
-                                <rect key="frame" x="30" y="34" width="280" height="60"/>
+                                <rect key="frame" x="30" y="50" width="280" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -939,8 +939,8 @@ Additional documentation, publications, and related software products are availa
             <objects>
                 <viewController storyboardIdentifier="powerResultControllerView" title="Power Results" id="Q68-38-O8e" customClass="GlimmpsePowerResultViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="hD8-2S-plT"/>
-                        <viewControllerLayoutGuide type="bottom" id="euU-va-PYR"/>
+                        <viewControllerLayoutGuide type="top" id="UfK-Ge-1sc"/>
+                        <viewControllerLayoutGuide type="bottom" id="0nr-8D-S6o"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MK7-Q0-TTZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -967,24 +967,24 @@ Additional documentation, publications, and related software products are availa
             <objects>
                 <viewController storyboardIdentifier="designSmallestGroupSize" title="Smallest Group Size" id="ZKC-cV-7ls" customClass="GlimmpseSmallestGroupSizeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Vyx-Ra-bhr"/>
-                        <viewControllerLayoutGuide type="bottom" id="odY-fQ-C9R"/>
+                        <viewControllerLayoutGuide type="top" id="ymo-EN-nFn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dum-4E-hIa"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="U9H-Dz-eJh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z1i-fg-WGq">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="881"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="421"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4YR-Hg-H7I">
-                                        <rect key="frame" x="20" y="36" width="282" height="100"/>
+                                        <rect key="frame" x="20" y="58" width="282" height="100"/>
                                         <string key="text">Specify the number of study participants in the smallest group. You may choose up to four values: power or total sample size will be calculated for each value you choose.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lm2-1U-KMJ">
-                                        <rect key="frame" x="10" y="181" width="302" height="245"/>
+                                        <rect key="frame" x="10" y="157" width="302" height="195"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -998,46 +998,46 @@ Additional documentation, publications, and related software products are availa
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Smallest Group Size:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSB-nX-Gqc">
-                                        <rect key="frame" x="34" y="153" width="161" height="20"/>
+                                        <rect key="frame" x="34" y="179" width="161" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Smallest Group Size:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FT7-Pv-rjl">
-                                        <rect key="frame" x="34" y="181" width="161" height="20"/>
+                                        <rect key="frame" x="34" y="227" width="161" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Smallest Group Size:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wwA-JP-lqE">
-                                        <rect key="frame" x="34" y="208" width="161" height="21"/>
+                                        <rect key="frame" x="34" y="273" width="161" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Smallest Group Size:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" enabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8at-Ts-7IW">
-                                        <rect key="frame" x="34" y="237" width="161" height="21"/>
+                                        <rect key="frame" x="34" y="317" width="161" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iS1-Dr-CSA">
-                                        <rect key="frame" x="220" y="148" width="59" height="30"/>
+                                        <rect key="frame" x="220" y="173" width="59" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X7V-YG-K1p">
-                                        <rect key="frame" x="220" y="181" width="59" height="30"/>
+                                        <rect key="frame" x="220" y="222" width="59" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ocM-cQ-Stw">
-                                        <rect key="frame" x="220" y="214" width="59" height="30"/>
+                                        <rect key="frame" x="220" y="269" width="59" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YMl-Qf-XCv">
-                                        <rect key="frame" x="220" y="244" width="59" height="30"/>
+                                        <rect key="frame" x="220" y="314" width="59" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -1064,207 +1064,207 @@ Additional documentation, publications, and related software products are availa
             <objects>
                 <viewController storyboardIdentifier="relativeSizeViewController" title="Relative Group Size" id="HOo-ct-xgu" customClass="GlimmpseRelativeSizeViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9la-ko-KzX"/>
-                        <viewControllerLayoutGuide type="bottom" id="1De-by-szl"/>
+                        <viewControllerLayoutGuide type="top" id="cZa-wA-Kae"/>
+                        <viewControllerLayoutGuide type="bottom" id="CDj-t5-Ehe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="juV-aK-h9F">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gi3-Qi-5P1">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="644"/>
+                                <rect key="frame" x="0.0" y="-5" width="320" height="573"/>
                                 <subviews>
                                     <textView opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Select the relative group size for each group. For equal group sizes, select &quot;1&quot; for all groups." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Mrc-D9-Bz2">
-                                        <rect key="frame" x="11" y="9" width="289" height="64"/>
+                                        <rect key="frame" x="11" y="46" width="289" height="64"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Im3-dS-hVM">
-                                        <rect key="frame" x="33" y="85" width="60" height="31"/>
+                                        <rect key="frame" x="33" y="122" width="60" height="31"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="nKL-p7-hTA">
-                                        <rect key="frame" x="33" y="137" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="174" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Hkr-eL-FrE">
-                                        <rect key="frame" x="33" y="181" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="218" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="2FO-aJ-yWK">
-                                        <rect key="frame" x="33" y="226" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="263" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Scr-wt-cdW">
-                                        <rect key="frame" x="33" y="268" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="305" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="8J1-ng-dsK">
-                                        <rect key="frame" x="33" y="310" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="347" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="kP5-0n-AgM">
-                                        <rect key="frame" x="33" y="352" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="389" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="fx1-7K-2ii">
-                                        <rect key="frame" x="33" y="393" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="430" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group9" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="NTV-GN-mT6">
-                                        <rect key="frame" x="33" y="434" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="471" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="MFe-oS-E6R">
-                                        <rect key="frame" x="33" y="472" width="60" height="20"/>
+                                        <rect key="frame" x="33" y="509" width="60" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFF-Yq-789">
-                                        <rect key="frame" x="106" y="91" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="128" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="2kD-rN-VPg"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2J-Hf-58m">
-                                        <rect key="frame" x="106" y="131" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="168" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="RiF-yo-0gy"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6v-Tn-BBg">
-                                        <rect key="frame" x="106" y="175" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="212" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="cIY-3J-r7G"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="18p-S2-VX2">
-                                        <rect key="frame" x="106" y="220" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="257" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="SMm-hE-MlY"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7v-5M-eCX">
-                                        <rect key="frame" x="106" y="262" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="299" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="mMM-ph-yZ2"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lof-Gv-8GU">
-                                        <rect key="frame" x="106" y="304" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="341" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="YEG-wg-Viv"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJc-sH-Zrs">
-                                        <rect key="frame" x="106" y="346" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="383" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="P8l-Sa-jRQ"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q05-gG-gJ3">
-                                        <rect key="frame" x="106" y="387" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="424" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="Ebu-iv-L8q"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qs-TC-zfQ">
-                                        <rect key="frame" x="106" y="428" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="465" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="Zsh-x4-3eZ"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="10" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnh-ac-Mdn">
-                                        <rect key="frame" x="106" y="466" width="160" height="31"/>
+                                        <rect key="frame" x="106" y="503" width="160" height="31"/>
                                         <color key="minimumTrackTintColor" red="0.5" green="0.17688265859999999" blue="0.2123283329" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <action selector="sliderPressed:" destination="HOo-ct-xgu" eventType="valueChanged" id="uBe-Ny-yJm"/>
                                         </connections>
                                     </slider>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIC-xM-GIp">
-                                        <rect key="frame" x="290" y="89" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="126" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3a-S0-9aT">
-                                        <rect key="frame" x="290" y="137" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="174" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVJ-oP-IGk">
-                                        <rect key="frame" x="290" y="181" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="218" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CC7-eN-Drg">
-                                        <rect key="frame" x="290" y="226" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="263" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Iv-6K-c9A">
-                                        <rect key="frame" x="290" y="268" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="305" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usp-2v-H9n">
-                                        <rect key="frame" x="290" y="310" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="347" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2U-bO-iKu">
-                                        <rect key="frame" x="290" y="352" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="389" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o0o-2e-4vm">
-                                        <rect key="frame" x="290" y="393" width="34" height="21"/>
+                                        <rect key="frame" x="290" y="430" width="34" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drO-DU-okC">
-                                        <rect key="frame" x="290" y="434" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="471" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJU-jY-nxg">
-                                        <rect key="frame" x="290" y="472" width="30" height="21"/>
+                                        <rect key="frame" x="290" y="509" width="30" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1318,18 +1318,18 @@ Additional documentation, publications, and related software products are availa
             <objects>
                 <viewController storyboardIdentifier="designMeansAndVariance" title="Means and Variance" id="hxS-rB-ivd" customClass="GlimmpseMeansAndVarianceViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="obF-Qy-aQf"/>
-                        <viewControllerLayoutGuide type="bottom" id="bHD-U3-nZm"/>
+                        <viewControllerLayoutGuide type="top" id="lKw-Ik-gfL"/>
+                        <viewControllerLayoutGuide type="bottom" id="iRI-16-5KI"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="S2b-E4-xCu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oE2-lU-Y6Q">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="714"/>
+                                <rect key="frame" x="0.0" y="-32" width="320" height="600"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPy-v2-lKE">
-                                        <rect key="frame" x="0.0" y="1" width="322" height="424"/>
+                                        <rect key="frame" x="-2" y="140" width="322" height="424"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1343,226 +1343,188 @@ Additional documentation, publications, and related software products are availa
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Mean" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dlg-mR-vj0">
-                                        <rect key="frame" x="117" y="53" width="57" height="25"/>
+                                        <rect key="frame" x="117" y="117" width="57" height="25"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Standard Deviation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="sf6-g2-Kqt">
-                                        <rect key="frame" x="184" y="53" width="145" height="25"/>
+                                        <rect key="frame" x="177" y="117" width="137" height="25"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="rqW-wa-ImF">
-                                        <rect key="frame" x="26" y="81" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="150" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="XOS-2V-e1Q">
-                                        <rect key="frame" x="26" y="113" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="192" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Epf-B2-jZm">
-                                        <rect key="frame" x="26" y="147" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="230" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="obV-Ga-D3h">
-                                        <rect key="frame" x="26" y="177" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="270" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group5" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZbS-Cn-uZ9">
-                                        <rect key="frame" x="26" y="209" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="312" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="gU6-t8-D9i">
-                                        <rect key="frame" x="26" y="243" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="355" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group7" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="wN7-nJ-Bmm">
-                                        <rect key="frame" x="26" y="271" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="398" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group9" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="vF5-gB-brL">
-                                        <rect key="frame" x="26" y="335" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="479" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group10" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="C84-wd-Uz4">
-                                        <rect key="frame" x="26" y="369" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="520" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Group8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KfR-Ja-TxD">
-                                        <rect key="frame" x="26" y="301" width="59" height="21"/>
+                                        <rect key="frame" x="26" y="437" width="59" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Enter the mean for each group and a common standard deviation." translatesAutoresizingMaskIntoConstraints="NO" id="rLp-QR-mYa">
-                                        <rect key="frame" x="19" y="7" width="303" height="56"/>
+                                        <rect key="frame" x="20" y="73" width="290" height="56"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="38d-dq-Ogc">
-                                        <rect key="frame" x="111" y="77" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="146" width="61" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D4M-bB-7ZI">
-                                        <rect key="frame" x="111" y="107" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="184" width="61" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="98w-V2-E4m">
-                                        <rect key="frame" x="111" y="143" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="226" width="61" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wpQ-dy-KS0">
-                                        <rect key="frame" x="111" y="171" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="266" width="61" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rrH-v9-qWV">
-                                        <rect key="frame" x="111" y="205" width="61" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2jj-6n-u42">
-                                        <rect key="frame" x="111" y="243" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="308" width="61" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9lB-5x-agf">
-                                        <rect key="frame" x="111" y="269" width="61" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fCi-9p-r3v">
-                                        <rect key="frame" x="111" y="309" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="394" width="61" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qfp-4x-Hxp">
-                                        <rect key="frame" x="111" y="333" width="61" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JDV-RG-6Ok">
-                                        <rect key="frame" x="111" y="375" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="475" width="61" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F3q-hQ-e1j">
-                                        <rect key="frame" x="222" y="79" width="62" height="30"/>
+                                        <rect key="frame" x="214" y="146" width="62" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fss-AU-MvI">
-                                        <rect key="frame" x="222" y="109" width="62" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="buA-4a-pl4">
-                                        <rect key="frame" x="222" y="143" width="62" height="30"/>
+                                    <textField clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="--" borderStyle="roundedRect" placeholder="-" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fss-AU-MvI">
+                                        <rect key="frame" x="214" y="183" width="62" height="30"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES" notEnabled="YES" updatesFrequently="YES"/>
+                                        </accessibility>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cwk-i4-SRx">
-                                        <rect key="frame" x="222" y="177" width="62" height="30"/>
+                                        <rect key="frame" x="214" y="266" width="62" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8GH-WY-xYO">
-                                        <rect key="frame" x="222" y="207" width="62" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SZV-pq-Rtw">
-                                        <rect key="frame" x="222" y="243" width="62" height="30"/>
+                                        <rect key="frame" x="214" y="308" width="62" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Njb-8V-dql">
-                                        <rect key="frame" x="222" y="269" width="62" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SwD-5g-Nnm">
-                                        <rect key="frame" x="222" y="309" width="62" height="30"/>
+                                        <rect key="frame" x="214" y="389" width="62" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eg9-gC-tkk">
-                                        <rect key="frame" x="217" y="337" width="62" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="15P-6X-IUy">
-                                        <rect key="frame" x="222" y="375" width="62" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZmV-6c-tj9">
-                                        <rect key="frame" x="111" y="146" width="61" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="214" y="475" width="62" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97a-eq-TPV">
-                                        <rect key="frame" x="111" y="243" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="351" width="61" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dk9-b0-k9i">
-                                        <rect key="frame" x="111" y="310" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="433" width="61" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mjQ-Mq-ix3">
-                                        <rect key="frame" x="111" y="380" width="61" height="30"/>
+                                        <rect key="frame" x="103" y="516" width="61" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="blC-cQ-pht">
-                                        <rect key="frame" x="222" y="145" width="62" height="30"/>
+                                        <rect key="frame" x="214" y="221" width="62" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pwc-YB-dB3">
-                                        <rect key="frame" x="222" y="243" width="62" height="30"/>
+                                        <rect key="frame" x="214" y="350" width="62" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qBV-uC-Voj">
-                                        <rect key="frame" x="222" y="310" width="57" height="30"/>
+                                        <rect key="frame" x="214" y="433" width="62" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jtg-6o-0MV">
-                                        <rect key="frame" x="217" y="380" width="60" height="30"/>
+                                        <rect key="frame" x="214" y="516" width="60" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -1616,15 +1578,15 @@ Additional documentation, publications, and related software products are availa
             <objects>
                 <viewController storyboardIdentifier="designNumberOfGroups" title="Number of Groups" id="rwf-UG-ZgW" customClass="GlimmpseNumberOfGroupsViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="dW0-Zd-1UV"/>
-                        <viewControllerLayoutGuide type="bottom" id="HuF-wt-kW2"/>
+                        <viewControllerLayoutGuide type="top" id="YAR-fy-Eqx"/>
+                        <viewControllerLayoutGuide type="bottom" id="UIi-dm-4cT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="97R-1P-L2j">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" text="Select the number of groups in the study design." translatesAutoresizingMaskIntoConstraints="NO" id="Xgl-yg-Fsd">
-                                <rect key="frame" x="20" y="26" width="280" height="64"/>
+                                <rect key="frame" x="20" y="44" width="280" height="64"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1657,6 +1619,6 @@ Additional documentation, publications, and related software products are availa
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="F4t-LZ-iak"/>
+        <segue reference="eP0-Un-r81"/>
     </inferredMetricsTieBreakers>
 </document>
