@@ -198,6 +198,10 @@
     
     meansAndVariance = @"Incomplete";
     
+    UITextField *varianceField = [varianceArray objectAtIndex:0];
+    
+    [varianceField addTarget:self action:@selector(textFieldDidChange:) forControlEvents:UIControlEventEditingChanged];
+    
 	
 }
 
@@ -209,7 +213,7 @@
 
 -(void) viewWillAppear:(BOOL)animated
 {
-    
+    NSLog(@"view just appeared");
     /**
      Create a UIButton to place the GLIMMPSE logo.
      */
@@ -287,6 +291,62 @@
         appDelegate.meansAndVariance = @"Incomplete";
 }
 
+/*
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    NSLog(@"change found in variance text");
+    
+    
+    UITextField *varianceValue = [varianceArray objectAtIndex:0];
+    //NSString *newString = [varianceValue.text stringByReplacingCharactersInRange:range withString:string];
+    
+    NSLog(@"new var value, %@", varianceValue.text);
+    //[self updateTextLabelsWithText: newString];
+    return YES;
+}
+
+
+-(void)updateTextLabelsWithText:(NSString *)string
+{
+    NSLog(@"inside update with string %@", string);
+    
+    
+    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+    [f setLocale:[NSLocale currentLocale]];
+    [f setNumberStyle:NSNumberFormatterDecimalStyle];
+    NSNumber *tempNum = [f numberFromString:appDelegate.numberOfGroups];
+    
+    int groups_ = [tempNum intValue];
+    UITextField *variance = [varianceArray objectAtIndex:0];
+    for (int i=1; i < groups_; i++)
+    {
+        UITextField *varianceValue = [varianceArray objectAtIndex:i];
+        [varianceValue setText:variance.text];
+        
+    }
+    
+}
+*/
+
+
+-(void)textFieldDidChange:(UITextField *)theTextField
+{
+    NSLog(@"text changed: %@", theTextField.text);
+    
+    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+    [f setLocale:[NSLocale currentLocale]];
+    [f setNumberStyle:NSNumberFormatterDecimalStyle];
+    NSNumber *tempNum = [f numberFromString:appDelegate.numberOfGroups];
+    
+    int groups_ = [tempNum intValue];
+    
+    
+    for (int i=1; i < groups_; i++) {
+        UITextField *textField = [varianceArray objectAtIndex:i];
+        textField.text=theTextField.text;
+    }
+    
+}
 
 -(void) viewWillDisappear:(BOOL)animated
 {
@@ -314,7 +374,7 @@
         
         UITextField *meanValue = [meansArray objectAtIndex:i];
         [appDelegate.meanOfGroups replaceObjectAtIndex:i withObject:meanValue.text];
-        
+        [appDelegate.varianceOfGroups replaceObjectAtIndex:i withObject:varianceValue.text];
         
         
     }
@@ -362,10 +422,12 @@
     appDelegate.meansAndVariance = meansAndVariance;
 }
 
+/*
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     NSString *newString = [textField.text stringByReplacingCharactersInRange:range withString:string];
     return !([newString length] > 9);
 }
+*/
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
