@@ -177,6 +177,12 @@
      Initialize the _meansAndVariance to Incomplete.
      */
     
+    for (int i=1; i < groups_; i++) {
+        UISlider *currentVarianceField = [varianceArray objectAtIndex:i];
+        currentVarianceField.enabled = NO;
+    }
+    
+    
     for (int i=  groups_; i < 10; i++)
     {
         UISlider *currentVarianceField = [varianceArray objectAtIndex:i];
@@ -248,6 +254,7 @@
         UITextField *varianceValue = [varianceArray objectAtIndex:i];
         varianceValue.text = variance;
         varianceValue.userInteractionEnabled = NO;
+        varianceValue.backgroundColor = [UIColor grayColor];
         
     }
     
