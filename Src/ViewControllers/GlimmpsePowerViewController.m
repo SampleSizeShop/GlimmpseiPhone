@@ -86,12 +86,12 @@
     UIBarButtonItem *fakeButtonItem = [[UIBarButtonItem alloc] initWithCustomView:fakeButton];
     self.navigationItem.rightBarButtonItem = fakeButtonItem;
     
-    int number = appDelegate.powerResults.count;
+    int number = (int)appDelegate.powerResults.count;
     
     for (int i=0; i < number; i++) {
         UIButton *button = [powerButtons objectAtIndex:i];
         NSString *power = [appDelegate.powerResults objectAtIndex:i];
-        if ([appDelegate.powerButtonsStatus objectAtIndex:i] == @"Selected") {
+        if ([[appDelegate.powerButtonsStatus objectAtIndex:i]  isEqual: @"Selected"]) {
             [powerLabels addObject:power];
             [button setSelected:YES];
             [button setImage:[UIImage imageNamed:@"117-todo.png"] forState:UIControlStateSelected];
@@ -125,18 +125,18 @@
         
     }
     
-    if (flag == NO && appDelegate.solvingForPower == @"Incomplete") {
+    if (flag == NO && [appDelegate.solvingForPower  isEqual: @"Incomplete"]) {
         appDelegate.solvingForPower = @"Incomplete";
     }
-    else if (flag == NO && appDelegate.solvingForPower == @"Complete") {
+    else if (flag == NO && [appDelegate.solvingForPower  isEqual: @"Complete"]) {
         appDelegate.solvingForPower = @"Incomplete";
         appDelegate.progressValue -= 0.17;
     }
-    else if (flag == YES && (appDelegate.solvingForPower == @"Incomplete" || appDelegate.solvingForPower == @"")) {
+    else if (flag == YES && ([appDelegate.solvingForPower  isEqual: @"Incomplete"] || [appDelegate.solvingForPower  isEqual: @""])) {
         appDelegate.solvingForPower = @"Complete";
         appDelegate.progressValue +=0.17;
     }
-    else if (flag ==YES && appDelegate.solvingForPower ==@"Complete") {
+    else if (flag ==YES && [appDelegate.solvingForPower  isEqual:@"Complete"]) {
         appDelegate.solvingForPower = @"Complete";
     }
 }

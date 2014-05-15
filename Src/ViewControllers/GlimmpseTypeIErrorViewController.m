@@ -100,9 +100,9 @@
     appDelegate.typeIError = selectedvalue;
     //NSLog(@"The value selected is %@", _selectedvalue);
     
-    appDelegate.component0 = [typeIErrorPicker selectedRowInComponent:0];
-    appDelegate.component1 = [typeIErrorPicker selectedRowInComponent:1];
-    appDelegate.component2 = [typeIErrorPicker selectedRowInComponent:2];
+    appDelegate.component0 = (int)[typeIErrorPicker selectedRowInComponent:0];
+    appDelegate.component1 = (int)[typeIErrorPicker selectedRowInComponent:1];
+    appDelegate.component2 = (int)[typeIErrorPicker selectedRowInComponent:2];
     
     
 }

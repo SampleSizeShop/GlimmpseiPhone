@@ -125,6 +125,15 @@
     meanGroup10.delegate = self;
     
     varianceGroup1.delegate = self;
+    varianceGroup2.delegate = self;
+    varianceGroup3.delegate = self;
+    varianceGroup4.delegate = self;
+    varianceGroup5.delegate = self;
+    varianceGroup6.delegate = self;
+    varianceGroup7.delegate = self;
+    varianceGroup8.delegate = self;
+    varianceGroup9.delegate = self;
+    varianceGroup10.delegate = self;
     
     /**
      NSArrays to hold group lablels, means, and variance.
@@ -145,7 +154,7 @@
     
     for (int i=0; i<varianceArray.count; i++) {
         
-        UITextField *currentField = [varianceArray objectAtIndex:i];
+        UITextField *currentField = [varianceArray objectAtIndex:0];
         currentField.keyboardType = UIKeyboardTypeDecimalPad;
     }
     
@@ -168,7 +177,13 @@
      Initialize the _meansAndVariance to Incomplete.
      */
     
-    for (int i=  1; i < 10; i++)
+    for (int i=1; i < groups_; i++) {
+        UISlider *currentVarianceField = [varianceArray objectAtIndex:i];
+        currentVarianceField.enabled = NO;
+    }
+    
+    
+    for (int i=  groups_; i < 10; i++)
     {
         UISlider *currentVarianceField = [varianceArray objectAtIndex:i];
         currentVarianceField.hidden = YES;
@@ -181,6 +196,7 @@
         
         UITextField *currentMeanField = [meansArray objectAtIndex:i];
         currentMeanField.hidden = YES;
+
         
         UILabel *currentLabel = [groupsArray objectAtIndex:i];
         currentLabel.hidden = YES;
@@ -188,12 +204,22 @@
     
     meansAndVariance = @"Incomplete";
     
+    UITextField *varianceField = [varianceArray objectAtIndex:0];
+    
+    [varianceField addTarget:self action:@selector(textFieldDidChange:) forControlEvents:UIControlEventEditingChanged];
+    
 	
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [meansVarianceScroll setScrollEnabled:YES];
+    [meansVarianceScroll setContentSize:CGSizeMake(320,1200)];
 }
 
 -(void) viewWillAppear:(BOOL)animated
 {
-    
+    NSLog(@"view just appeared");
     /**
      Create a UIButton to place the GLIMMPSE logo.
      */
@@ -222,6 +248,16 @@
     NSString *variance = [appDelegate.varianceOfGroups objectAtIndex:0];
     UITextField *varianceValue = [varianceArray objectAtIndex:0];
     varianceValue.text = variance;
+
+    for (int i=1; i< groups_; i++)
+    {
+        UITextField *varianceValue = [varianceArray objectAtIndex:i];
+        varianceValue.text = variance;
+        varianceValue.userInteractionEnabled = NO;
+        varianceValue.backgroundColor = [UIColor grayColor];
+        
+    }
+    
     
     for (int i=0; i< groups_; i++)
     {
@@ -247,12 +283,12 @@
             flag = FALSE;
     }
     
-    if (flag == TRUE && appDelegate.meansAndVariance == @"Complete")
+    if (flag == TRUE && [appDelegate.meansAndVariance  isEqual: @"Complete"])
     {
         appDelegate.meansAndVariance = @"Complete";
     }
     
-    else if (flag == TRUE && appDelegate.meansAndVariance != @"InComplete"){
+    else if (flag == TRUE && ![appDelegate.meansAndVariance  isEqual: @"InComplete"]){
         appDelegate.meansAndVariance = @"Complete";
         appDelegate.progressValue += 0.17;
         
@@ -262,6 +298,62 @@
         appDelegate.meansAndVariance = @"Incomplete";
 }
 
+/*
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    NSLog(@"change found in variance text");
+    
+    
+    UITextField *varianceValue = [varianceArray objectAtIndex:0];
+    //NSString *newString = [varianceValue.text stringByReplacingCharactersInRange:range withString:string];
+    
+    NSLog(@"new var value, %@", varianceValue.text);
+    //[self updateTextLabelsWithText: newString];
+    return YES;
+}
+
+
+-(void)updateTextLabelsWithText:(NSString *)string
+{
+    NSLog(@"inside update with string %@", string);
+    
+    
+    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+    [f setLocale:[NSLocale currentLocale]];
+    [f setNumberStyle:NSNumberFormatterDecimalStyle];
+    NSNumber *tempNum = [f numberFromString:appDelegate.numberOfGroups];
+    
+    int groups_ = [tempNum intValue];
+    UITextField *variance = [varianceArray objectAtIndex:0];
+    for (int i=1; i < groups_; i++)
+    {
+        UITextField *varianceValue = [varianceArray objectAtIndex:i];
+        [varianceValue setText:variance.text];
+        
+    }
+    
+}
+*/
+
+
+-(void)textFieldDidChange:(UITextField *)theTextField
+{
+    NSLog(@"text changed: %@", theTextField.text);
+    
+    NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
+    [f setLocale:[NSLocale currentLocale]];
+    [f setNumberStyle:NSNumberFormatterDecimalStyle];
+    NSNumber *tempNum = [f numberFromString:appDelegate.numberOfGroups];
+    
+    int groups_ = [tempNum intValue];
+    
+    
+    for (int i=1; i < groups_; i++) {
+        UITextField *textField = [varianceArray objectAtIndex:i];
+        textField.text=theTextField.text;
+    }
+    
+}
 
 -(void) viewWillDisappear:(BOOL)animated
 {
@@ -289,7 +381,7 @@
         
         UITextField *meanValue = [meansArray objectAtIndex:i];
         [appDelegate.meanOfGroups replaceObjectAtIndex:i withObject:meanValue.text];
-        
+        [appDelegate.varianceOfGroups replaceObjectAtIndex:i withObject:varianceValue.text];
         
         
     }
@@ -312,7 +404,7 @@
             flag = FALSE;
     }
     
-    if (flag == TRUE && appDelegate.meansAndVariance != @"Complete")
+    if (flag == TRUE && ![appDelegate.meansAndVariance  isEqual: @"Complete"])
     {
         //NSLog(@"In all True");
         meansAndVariance = @"Complete";
@@ -321,7 +413,7 @@
         
     }
     
-    else if (flag == TRUE && appDelegate.meansAndVariance == @"Complete"){
+    else if (flag == TRUE && [appDelegate.meansAndVariance  isEqual: @"Complete"]){
         //NSLog(@"In half True");
         meansAndVariance = @"Complete";
         //appDelegate.meansAndVariance = @"Complete";
@@ -329,7 +421,7 @@
     
     
     
-    else if (flag == FALSE && appDelegate.meansAndVariance == @"Complete") {
+    else if (flag == FALSE && [appDelegate.meansAndVariance  isEqual: @"Complete"]) {
         meansAndVariance = @"Incomplete";
         appDelegate.progressValue -= 0.17;
     }
@@ -337,10 +429,12 @@
     appDelegate.meansAndVariance = meansAndVariance;
 }
 
+/*
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     NSString *newString = [textField.text stringByReplacingCharactersInRange:range withString:string];
     return !([newString length] > 9);
 }
+*/
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -361,6 +455,15 @@
     [meanGroup10 resignFirstResponder];
     
     [varianceGroup1 resignFirstResponder];
+    [varianceGroup2 resignFirstResponder];
+    [varianceGroup3 resignFirstResponder];
+    [varianceGroup4 resignFirstResponder];
+    [varianceGroup5 resignFirstResponder];
+    [varianceGroup6 resignFirstResponder];
+    [varianceGroup7 resignFirstResponder];
+    [varianceGroup8 resignFirstResponder];
+    [varianceGroup9 resignFirstResponder];
+    [varianceGroup10 resignFirstResponder];
 }
 
 

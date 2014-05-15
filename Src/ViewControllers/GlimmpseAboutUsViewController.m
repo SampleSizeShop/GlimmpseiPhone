@@ -57,10 +57,23 @@
     [scrollerAboutUs setContentSize:CGSizeMake(320,700)];
     
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [scrollerAboutUs setScrollEnabled:YES];
+    [scrollerAboutUs setContentSize:CGSizeMake(320,700)];
+    
+    contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+    
+    [super viewDidAppear:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -71,7 +84,9 @@
 
 - (IBAction)FeedbackEmail:(id)sender {
     
+    NSLog(@"contact pressed");
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     
     if ([MFMailComposeViewController canSendMail]) {
         MFMailComposeViewController *mailComposer;
@@ -83,7 +98,9 @@
         [mailComposer setSubject:emailTitle];
         [mailComposer setMessageBody:messageBody isHTML:YES];
         [mailComposer setToRecipients:emailAddresses];
-        [self presentModalViewController:mailComposer animated:YES];
+        //[self presentModalViewController:mailComposer animated:YES];
+        [self presentViewController:mailComposer animated:YES completion:nil];
+        
     }
     else {
         
@@ -99,6 +116,7 @@
     }
     
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
 }
 
 /** This method handles returning to the current view after user is either done sending or cancel sending email.
@@ -108,8 +126,10 @@
 {
     
     
-    [self dismissModalViewControllerAnimated:YES];
+    //[self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
     contactButton.highlighted = YES;
+    [contactButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     
 }
 

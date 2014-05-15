@@ -185,7 +185,7 @@ UIButton *sendEmailButton;
         str = strNew;
         //NSLog(@"power value for label:%@", str);
         
-        if (appDelegate.solvingFor == @"Power" && str.length > 5) {
+        if ([appDelegate.solvingFor  isEqual: @"Power"] && str.length > 5) {
             str = [strNew substringToIndex:5];
             
         }
@@ -347,9 +347,9 @@ UIButton *sendEmailButton;
         
         for (int i=0; i<4; i++) {
             
-            if (appDelegate.solvingFor == @"Power") {
+            if ([appDelegate.solvingFor isEqual: (@"Power")]) {
                 
-                if ([appDelegate.powerResults objectAtIndex:i] != @"N/A" && [appDelegate.sampleSizeResults objectAtIndex:i] != @"NoSelection") {
+                if (![[appDelegate.powerResults objectAtIndex:i]  isEqual: @"N/A"] && ![[appDelegate.sampleSizeResults objectAtIndex:i]  isEqual: @"NoSelection"]) {
                     //NSLog(@"power is %@",[appDelegate.powerResults objectAtIndex:i]);
                     NSString *power = [NSString stringWithFormat:@"%@",[appDelegate.powerResults objectAtIndex:i]];
                     
@@ -379,8 +379,8 @@ UIButton *sendEmailButton;
                 }
                 
             }
-            else if (appDelegate.solvingFor == @"Sample Size") {
-                if ([appDelegate.powerButtonsStatus objectAtIndex:i] == @"Selected" && [appDelegate.sampleSizeResults objectAtIndex:i] != @"N/A") {
+            else if ([appDelegate.solvingFor  isEqual: @"Sample Size"]) {
+                if ([[appDelegate.powerButtonsStatus objectAtIndex:i]  isEqual: @"Selected"] && ![[appDelegate.sampleSizeResults objectAtIndex:i]  isEqual: @"N/A"]) {
                     //NSLog(@"power is %@",[appDelegate.powerResults objectAtIndex:i]);
                     NSString *power = [NSString stringWithFormat:@"%@",[appDelegate.powerResults objectAtIndex:i]];
                     NSString *actualPower = [NSString stringWithFormat:@"%@", [appDelegate.nominalPowers objectAtIndex:i]];
@@ -440,7 +440,7 @@ UIButton *sendEmailButton;
             [mailComposer addAttachmentData:csvFile mimeType:@"application/octet-stream" fileName:csvFileName];
             [mailComposer addAttachmentData:newJSONData mimeType:@"application/octet-stream" fileName:@"GLIMMPSELiteStudyDesign.json"];
             [mailComposer setToRecipients:emailAddresses];
-            [self presentModalViewController:mailComposer animated:YES];
+            //[self presentModalViewController:mailComposer animated:YES];
         }
         else {
             //NSLog(@"please setup an email ID first");
@@ -531,7 +531,7 @@ UIButton *sendEmailButton;
 
 -(void) mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
 {
-    [self dismissModalViewControllerAnimated:YES];
+    //[self dismissModalViewControllerAnimated:YES];
 }
 
 

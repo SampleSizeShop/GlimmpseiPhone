@@ -104,6 +104,7 @@
     [relativeScroll setScrollEnabled:YES];
     [relativeScroll setContentSize:CGSizeMake(320,850)];
     
+    
     [super viewDidLoad];
     
     groupSliders = [[NSArray alloc] initWithObjects:slider1, slider2,slider3,slider4,slider5,slider6,slider7,slider8,slider9,slider10, nil];
@@ -169,6 +170,8 @@
 
 -(void) viewWillDisappear:(BOOL)animated
 {
+    
+    
     //NSLog(@"Inside WillDisappear");
     NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
     [f setLocale:[NSLocale currentLocale]];
@@ -210,6 +213,11 @@
 
 -(void) viewDidAppear:(BOOL)animated
 {
+    
+    [relativeScroll setScrollEnabled:YES];
+    [relativeScroll setContentSize:CGSizeMake(320,850)];
+    
+    
     NSNumberFormatter * f = [[NSNumberFormatter alloc] init];
     [f setLocale:[NSLocale currentLocale]];
     [f setNumberStyle:NSNumberFormatterDecimalStyle];
@@ -239,6 +247,8 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
+    
+    
     UIButton* fakeButton = (UIButton *) [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"GlimmpseIconNoBG48x48.png"]];
     UIBarButtonItem *fakeButtonItem = [[UIBarButtonItem alloc] initWithCustomView:fakeButton];
     self.navigationItem.rightBarButtonItem = fakeButtonItem;
@@ -282,7 +292,7 @@
 - (IBAction)sliderPressed:(UISlider *)sender {
     
     
-    int index_ = [groupSliders indexOfObject:sender];
+    int index_ = (int)[groupSliders indexOfObject:sender];
     
     UILabel *textField = [groupRelativeSizes objectAtIndex:index_];
     

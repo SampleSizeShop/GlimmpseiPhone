@@ -144,17 +144,17 @@
     {
         
         NSLog(@"Inside mode =0");
-        items = [[NSArray alloc] initWithObjects:@"Solving For",@"Type I Error", @"Number of Groups",@"Relative Group Size", @"Smallest Group Size", @"Means and Variances", nil];
+        items = [[NSArray alloc] initWithObjects:@"Solving For",@"Type I Error",@"Number of Groups",@"Relative Group Size",@"Means and Variances", nil];
         
-        data = [[NSArray alloc]initWithObjects:appDelegate.solvingFor, appDelegate.typeIError, appDelegate.numberOfGroups, appDelegate.relativeGroupSize, appDelegate.smallestGroupSizeStatus, appDelegate.meansAndVariance, nil];
+        data = [[NSArray alloc]initWithObjects:appDelegate.solvingFor, appDelegate.typeIError, appDelegate.numberOfGroups, appDelegate.relativeGroupSize, appDelegate.meansAndVariance, nil];
         
         
     }
     else if (appDelegate.mode == 1)
     {
         NSLog(@"Inside mode =1");
-        items = [[NSArray alloc] initWithObjects:@"Solving For",@"Type I Error", @"Number of Groups",@"Relative Group Size", @"Smallest Group Size", @"Means and Variances", nil];
-        data = [[NSArray alloc]initWithObjects:appDelegate.solvingFor, appDelegate.typeIError, appDelegate.numberOfGroups, appDelegate.relativeGroupSize, appDelegate.smallestGroupSizeStatus, appDelegate.meansAndVariance, nil];
+        items = [[NSArray alloc] initWithObjects:@"Solving For",@"Smallest Group Size",@"Type I Error",@"Number of Groups",@"Relative Group Size",@"Means and Variances", nil];
+        data = [[NSArray alloc]initWithObjects:appDelegate.solvingFor, appDelegate.smallestGroupSizeStatus, appDelegate.typeIError, appDelegate.numberOfGroups, appDelegate.relativeGroupSize, appDelegate.meansAndVariance, nil];
         
         
     }
@@ -177,6 +177,9 @@
         calculateButton.userInteractionEnabled = YES;
         reset2Button.userInteractionEnabled = YES;
         calculateButton.highlighted = YES;
+        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+        calculateButton.highlighted = YES;
+        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
         calculateButton.hidden = NO;
         reset2Button.hidden = NO;
         resetButton.hidden = YES;
@@ -188,6 +191,7 @@
         calculateButton.hidden = YES;
         reset2Button.hidden = YES;
         resetButton.hidden = NO;
+        [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
         resetButton.userInteractionEnabled = YES;
         resetButton.highlighted = YES;
     }
@@ -216,16 +220,16 @@
     [self.view setUserInteractionEnabled:YES];
     
     if(appDelegate.mode == 0) {
-        items = [[NSArray alloc] initWithObjects:@"Solving For",@"Type I Error", @"Number of Groups",@"Relative Group Size", @"Smallest Group Size", @"Means and Variances", nil];
-        data = [[NSArray alloc]initWithObjects:appDelegate.solvingFor, appDelegate.typeIError, appDelegate.numberOfGroups, appDelegate.relativeGroupSize, appDelegate.smallestGroupSizeStatus, appDelegate.meansAndVariance, nil];
+        items = [[NSArray alloc] initWithObjects:@"Solving For",@"Type I Error", @"Number of Groups",@"Relative Group Size", @"Means and Variances", nil];
+        data = [[NSArray alloc]initWithObjects:appDelegate.solvingFor, appDelegate.typeIError, appDelegate.numberOfGroups, appDelegate.relativeGroupSize, appDelegate.meansAndVariance, nil];
         progressView.progress = appDelegate.progressValue;
         int progressValue = progressView.progress*100;
         progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
     }
     else if (appDelegate.mode == 1) {
         
-        items = [[NSArray alloc] initWithObjects:@"Solving For",@"Type I Error", @"Number of Groups",@"Relative Group Size", @"Smallest Group Size", @"Means and Variances", nil];
-        data = [[NSArray alloc]initWithObjects:appDelegate.solvingFor, appDelegate.typeIError, appDelegate.numberOfGroups, appDelegate.relativeGroupSize, appDelegate.smallestGroupSizeStatus, appDelegate.meansAndVariance, nil];
+        items = [[NSArray alloc] initWithObjects:@"Solving For",@"Smallest Group Size", @"Type I Error", @"Number of Groups",@"Relative Group Size", @"Means and Variances", nil];
+        data = [[NSArray alloc]initWithObjects:appDelegate.solvingFor, appDelegate.smallestGroupSizeStatus, appDelegate.typeIError, appDelegate.numberOfGroups, appDelegate.relativeGroupSize, appDelegate.meansAndVariance, nil];
         progressView.progress = appDelegate.progressValue;
         int progressValue = progressView.progress*100;
         progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -246,8 +250,8 @@
     
     [self.designTable reloadData];
     
-    NSLog(@"%i", [self.designTable numberOfSections]);
-    NSLog(@"%i", [self.designTable numberOfRowsInSection:1]);
+    NSLog(@"%li", (long)[self.designTable numberOfSections]);
+    NSLog(@"%li", (long)[self.designTable numberOfRowsInSection:1]);
     
     NSLog(@"table reloaded");
     
@@ -260,6 +264,9 @@
         calculateButton.userInteractionEnabled = YES;
         reset2Button.userInteractionEnabled = YES;
         calculateButton.highlighted = YES;
+        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+        calculateButton.highlighted = YES;
+        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
         reset2Button.highlighted = YES;
         calculateButton.hidden = NO;
         reset2Button.hidden = NO;
@@ -273,6 +280,7 @@
         reset2Button.hidden = YES;
         resetButton.highlighted = YES;
         resetButton.hidden = NO;
+        [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
     }
 
 }
@@ -296,7 +304,7 @@
             
             tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             
-            if (appDelegate.solvingFor == @"") {
+            if ([appDelegate.solvingFor isEqual:@""]) {
                 
                 progressView.progress += 0.17;
                 int progressValue = progressView.progress*100;
@@ -307,6 +315,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -324,7 +335,7 @@
             tb.detailTextLabel.text = appDelegate.typeIError;
             tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             
-            if (appDelegate.typeIError == @"") {
+            if ([appDelegate.typeIError  isEqual: @""]) {
                 progressView.progress += 0.17;
                 int progressValue = progressView.progress*100;
                 progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -334,6 +345,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -351,7 +365,7 @@
             tb.detailTextLabel.text = appDelegate.numberOfGroups;
             tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             
-            if (appDelegate.numberOfGroups == @"") {
+            if ([appDelegate.numberOfGroups  isEqual: @""]) {
                 progressView.progress += 0.17;
                 int progressValue = progressView.progress*100;
                 progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -361,6 +375,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -374,7 +391,7 @@
         
         if(indexPath.row == 3)
         {
-            if (appDelegate.numberOfGroups == @"")
+            if ([appDelegate.numberOfGroups  isEqual: @""])
                 
             {
                 
@@ -383,7 +400,7 @@
                  */
                 
                 UIAlertView *messageAlert = [[UIAlertView alloc]
-                                             initWithTitle:@"Error" message:@"Please Select Number of Groups First" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                                             initWithTitle:@"Error" message:@"Please select the number of groups first" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                 [messageAlert show];
                 
             }
@@ -396,7 +413,7 @@
                 tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
                 
                 
-                if (appDelegate.relativeGroupSize == @"") {
+                if ([appDelegate.relativeGroupSize  isEqual: @""]) {
                     progressView.progress += 0.17;
                     int progressValue = progressView.progress*100;
                     progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -406,6 +423,9 @@
                         calculateButton.userInteractionEnabled = YES;
                         reset2Button.userInteractionEnabled = YES;
                         calculateButton.highlighted = YES;
+                        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                        calculateButton.highlighted = YES;
+                        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                         reset2Button.highlighted = YES;
                         calculateButton.hidden = NO;
                         reset2Button.hidden = NO;
@@ -416,6 +436,7 @@
             }
         }// end if indexPath = 3
         
+        /*
         if(indexPath.row == 4)
         {
             UIViewController *uiViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"designSmallestGroupSize"];
@@ -446,18 +467,20 @@
             }
         }// end if indexPath = 4
         
-        if(indexPath.row == 5)
+        */
+         
+        if(indexPath.row == 4)
         {
             
             /**
              Show an alert window if user tries to enter means and variance for each group before entering the total number of groups required in the study design.
              */
             
-            if (appDelegate.numberOfGroups == @"")
+            if ([appDelegate.numberOfGroups  isEqual: @""])
                 
             {
                 UIAlertView *messageAlert = [[UIAlertView alloc]
-                                             initWithTitle:@"Error" message:@"Please Select Number of Groups First" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                                             initWithTitle:@"Error" message:@"Please select the number of groups first"  delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                 [messageAlert show];
                 
             }
@@ -480,6 +503,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -489,12 +515,11 @@
                 else {
                     resetButton.hidden = NO;
                     resetButton.highlighted = YES;
+                    [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
                 }
                 //}
             }
-        }// end if indexPath = 5
-        
-        
+        }// end if indexPath = 4
         
         
     }// end if appDelegate.mode = 0
@@ -516,7 +541,7 @@
             tb.detailTextLabel.text = appDelegate.solvingFor;
             tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             
-            if (appDelegate.solvingFor == @"") {
+            if ([appDelegate.solvingFor  isEqual: @""]) {
                 progressView.progress += 0.17;
                 int progressValue = progressView.progress*100;
                 progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -525,7 +550,9 @@
                     
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
                     calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -534,6 +561,7 @@
                 else {
                     resetButton.hidden = NO;
                     resetButton.highlighted = YES;
+                    [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
                 }
             }
             
@@ -541,114 +569,12 @@
         
         if(indexPath.row == 1)
         {
-            UIViewController *uiViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"designTypeIErrorRate"];
-            [self.navigationController pushViewController:uiViewController animated:YES];
-            UITableViewCell *tb = [tableView cellForRowAtIndexPath:indexPath];
-            tb.detailTextLabel.text = appDelegate.typeIError;
-            tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
-            
-            if (appDelegate.typeIError == @"") {
-                progressView.progress += 0.17;
-                int progressValue = progressView.progress*100;
-                progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
-                appDelegate.progressValue = progressView.progress;
-                if (progressView.progress == 1.0) {
-                    
-                    calculateButton.userInteractionEnabled = YES;
-                    reset2Button.userInteractionEnabled = YES;
-                    calculateButton.highlighted = YES;
-                    reset2Button.highlighted = YES;
-                    calculateButton.hidden = NO;
-                    reset2Button.hidden = NO;
-                    resetButton.hidden = YES;
-                    
-                }
-                else {
-                    resetButton.hidden = NO;
-                    resetButton.highlighted = YES;
-                }
-            }
-        }// end if indexPath = 1
-        
-        if(indexPath.row == 2)
-        {
-            UIViewController *uiViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"designNumberOfGroups"];
-            [self.navigationController pushViewController:uiViewController animated:YES];
-            UITableViewCell *tb = [tableView cellForRowAtIndexPath:indexPath];
-            tb.detailTextLabel.text = appDelegate.numberOfGroups;
-            tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
-            
-            if (appDelegate.numberOfGroups == @"") {
-                progressView.progress += 0.17;
-                appDelegate.progressValue = progressView.progress;
-                int progressValue = progressView.progress*100;
-                progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
-                if (progressView.progress == 1.0) {
-                    
-                    calculateButton.userInteractionEnabled = YES;
-                    reset2Button.userInteractionEnabled = YES;
-                    calculateButton.highlighted = YES;
-                    reset2Button.highlighted = YES;
-                    calculateButton.hidden = NO;
-                    reset2Button.hidden = NO;
-                    resetButton.hidden = YES;
-                    
-                }
-            }
-            
-            
-        }// end if indexPath = 2
-        
-        
-        if(indexPath.row == 3)
-        {
-            if (appDelegate.numberOfGroups == @"")
-                
-            {
-                
-                
-                
-                UIAlertView *messageAlert = [[UIAlertView alloc]
-                                             initWithTitle:@"Error" message:@"Please Select Number of Groups First" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-                [messageAlert show];
-                
-            }
-            else
-            {
-                UIViewController *uiViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"relativeSizeViewController"];
-                [self.navigationController pushViewController:uiViewController animated:YES];
-                UITableViewCell *tb = [tableView cellForRowAtIndexPath:indexPath];
-                tb.detailTextLabel.text = appDelegate.relativeGroupSize;
-                tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
-                
-                if (appDelegate.relativeGroupSize == @"") {
-                    progressView.progress += 0.17;
-                    int progressValue = progressView.progress*100;
-                    progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
-                    appDelegate.progressValue = progressView.progress;
-                    if (progressView.progress == 1.0) {
-                        
-                        calculateButton.userInteractionEnabled = YES;
-                        reset2Button.userInteractionEnabled = YES;
-                        calculateButton.highlighted = YES;
-                        reset2Button.highlighted = YES;
-                        calculateButton.hidden = NO;
-                        reset2Button.hidden = NO;
-                        resetButton.hidden = YES;
-                        
-                    }
-                }
-            }
-        }// end if indexPath = 3
-        
-        if(indexPath.row == 4)
-        {
             UIViewController *uiViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"designSmallestGroupSize"];
             [self.navigationController pushViewController:uiViewController animated:YES];
             UITableViewCell *tb = [tableView cellForRowAtIndexPath:indexPath];
             tb.detailTextLabel.text = appDelegate.smallestGroupSizeStatus;
             
-            if (appDelegate.smallestGroupSizeStatus == @"Complete") {
+            if ([appDelegate.smallestGroupSizeStatus  isEqual: @"Complete"]) {
                 tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             }
             
@@ -663,6 +589,9 @@
                 calculateButton.userInteractionEnabled = YES;
                 reset2Button.userInteractionEnabled = YES;
                 calculateButton.highlighted = YES;
+                [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                calculateButton.highlighted = YES;
+                [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                 reset2Button.highlighted = YES;
                 calculateButton.hidden = NO;
                 reset2Button.hidden = NO;
@@ -670,15 +599,124 @@
                 
             }
             //}
-        }// end if indexPath = 4
+        }// end if indexPath = 1
         
-        if(indexPath.row == 5)
+        if(indexPath.row == 2)
         {
-            if (appDelegate.numberOfGroups == @"")
+            UIViewController *uiViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"designTypeIErrorRate"];
+            [self.navigationController pushViewController:uiViewController animated:YES];
+            UITableViewCell *tb = [tableView cellForRowAtIndexPath:indexPath];
+            tb.detailTextLabel.text = appDelegate.typeIError;
+            tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
+            
+            if ([appDelegate.typeIError  isEqual: @""]) {
+                progressView.progress += 0.17;
+                int progressValue = progressView.progress*100;
+                progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
+                appDelegate.progressValue = progressView.progress;
+                if (progressView.progress == 1.0) {
+                    
+                    calculateButton.userInteractionEnabled = YES;
+                    reset2Button.userInteractionEnabled = YES;
+                    calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
+                    reset2Button.highlighted = YES;
+                    calculateButton.hidden = NO;
+                    reset2Button.hidden = NO;
+                    resetButton.hidden = YES;
+                    
+                }
+                else {
+                    resetButton.hidden = NO;
+                    resetButton.highlighted = YES;
+                    [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                }
+            }
+        }// end if indexPath = 2
+        
+        if(indexPath.row == 3)
+        {
+            UIViewController *uiViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"designNumberOfGroups"];
+            [self.navigationController pushViewController:uiViewController animated:YES];
+            UITableViewCell *tb = [tableView cellForRowAtIndexPath:indexPath];
+            tb.detailTextLabel.text = appDelegate.numberOfGroups;
+            tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
+            
+            if ([appDelegate.numberOfGroups  isEqual: @""]) {
+                progressView.progress += 0.17;
+                appDelegate.progressValue = progressView.progress;
+                int progressValue = progressView.progress*100;
+                progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
+                if (progressView.progress == 1.0) {
+                    
+                    calculateButton.userInteractionEnabled = YES;
+                    reset2Button.userInteractionEnabled = YES;
+                    calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
+                    reset2Button.highlighted = YES;
+                    calculateButton.hidden = NO;
+                    reset2Button.hidden = NO;
+                    resetButton.hidden = YES;
+                    
+                }
+            }
+            
+            
+        }// end if indexPath = 3
+        
+        
+        if(indexPath.row == 4)
+        {
+            if ([appDelegate.numberOfGroups  isEqual: @""])
                 
             {
                 UIAlertView *messageAlert = [[UIAlertView alloc]
-                                             initWithTitle:@"Error" message:@"Please Select Number of Groups First" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                                             initWithTitle:@"Error" message:@"Please select the number of groups first"  delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                [messageAlert show];
+            }
+            else
+            {
+                UIViewController *uiViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"relativeSizeViewController"];
+                [self.navigationController pushViewController:uiViewController animated:YES];
+                UITableViewCell *tb = [tableView cellForRowAtIndexPath:indexPath];
+                tb.detailTextLabel.text = appDelegate.relativeGroupSize;
+                tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
+                
+                if ([appDelegate.relativeGroupSize  isEqual: @""]) {
+                    progressView.progress += 0.17;
+                    int progressValue = progressView.progress*100;
+                    progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
+                    appDelegate.progressValue = progressView.progress;
+                    if (progressView.progress == 1.0) {
+                        calculateButton.userInteractionEnabled = YES;
+                        reset2Button.userInteractionEnabled = YES;
+                        calculateButton.highlighted = YES;
+                        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                        calculateButton.highlighted = YES;
+                        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
+                        reset2Button.highlighted = YES;
+                        calculateButton.hidden = NO;
+                        reset2Button.hidden = NO;
+                        resetButton.hidden = YES;
+                        
+                    }
+                }
+            }
+        }// end if indexPath = 4
+        
+        
+        
+        if(indexPath.row == 5)
+        {
+            if ([appDelegate.numberOfGroups  isEqual: @""])
+                
+            {
+                UIAlertView *messageAlert = [[UIAlertView alloc]
+                                             initWithTitle:@"Error" message:@"Please select the number of groups first"  delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                 [messageAlert show];
                 
             }
@@ -697,7 +735,7 @@
                 
                 progressView.progress  = appDelegate.progressValue;
                 
-                if (appDelegate.meansAndVariance == @"Complete") {
+                if ([appDelegate.meansAndVariance  isEqual: @"Complete"]) {
                     tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
                     int progressValue = progressView.progress*100;
                     progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -708,6 +746,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -736,7 +777,7 @@
             tb.detailTextLabel.text = appDelegate.solvingFor;
             tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             
-            if (appDelegate.solvingFor == @"") {
+            if ([appDelegate.solvingFor  isEqual: @""]) {
                 progressView.progress += 0.17;
                 int progressValue = 0.17*100;
                 progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -746,6 +787,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -762,7 +806,7 @@
             UITableViewCell *tb = [tableView cellForRowAtIndexPath:indexPath];
             tb.detailTextLabel.text = appDelegate.solvingForPower;
             
-            if (appDelegate.solvingForPower != @"")
+            if (![appDelegate.solvingForPower  isEqual: @""])
                 tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             
             progressView.progress  = appDelegate.progressValue;
@@ -774,6 +818,9 @@
                 calculateButton.userInteractionEnabled = YES;
                 reset2Button.userInteractionEnabled = YES;
                 calculateButton.highlighted = YES;
+                [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                calculateButton.highlighted = YES;
+                [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                 reset2Button.highlighted = YES;
                 calculateButton.hidden = NO;
                 reset2Button.hidden = NO;
@@ -790,7 +837,7 @@
             tb.detailTextLabel.text = appDelegate.typeIError;
             tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             
-            if (appDelegate.typeIError == @"") {
+            if ([appDelegate.typeIError  isEqual: @""]) {
                 progressView.progress += 0.17;
                 int progressValue = progressView.progress*100;
                 progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -800,6 +847,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -816,7 +866,7 @@
             tb.detailTextLabel.text = appDelegate.numberOfGroups;
             tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
             
-            if (appDelegate.numberOfGroups == @"") {
+            if ([appDelegate.numberOfGroups  isEqual: @""]) {
                 progressView.progress += 0.17;
                 int progressValue = progressView.progress*100;
                 progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -826,6 +876,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     reset2Button.highlighted = YES;
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
@@ -839,7 +892,7 @@
         
         if(indexPath.row == 4)
         {
-            if (appDelegate.numberOfGroups == @"")
+            if ([appDelegate.numberOfGroups  isEqual: @""])
             {
                 /**
                  Show an alert window if user tries to enter relative group sizes before entering the total number of groups required in the study design.
@@ -847,7 +900,7 @@
                 
                 
                 UIAlertView *messageAlert = [[UIAlertView alloc]
-                                             initWithTitle:@"Error" message:@"Please Select Number of Groups First" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                                             initWithTitle:@"Error" message:@"Please select the number of groups first"  delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                 [messageAlert show];
                 
             }
@@ -859,7 +912,7 @@
                 tb.detailTextLabel.text = appDelegate.relativeGroupSize;
                 tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
                 
-                if (appDelegate.relativeGroupSize == @"") {
+                if ([appDelegate.relativeGroupSize  isEqual: @""]) {
                     progressView.progress += 0.17;
                     int progressValue = progressView.progress*100;
                     progressIndicator.text = [NSString stringWithFormat:@"%i%%  Complete", progressValue];
@@ -869,6 +922,9 @@
                         calculateButton.userInteractionEnabled = YES;
                         reset2Button.userInteractionEnabled = YES;
                         calculateButton.highlighted = YES;
+                        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                        calculateButton.highlighted = YES;
+                        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                         reset2Button.highlighted = YES;
                         calculateButton.hidden = NO;
                         reset2Button.hidden = NO;
@@ -885,11 +941,11 @@
              Show an alert window if user tries to enter means and variance for each group before entering the total number of groups required in the study design.
              */
             
-            if (appDelegate.numberOfGroups == @"")
+            if ([appDelegate.numberOfGroups  isEqual: @""])
                 
             {
                 UIAlertView *messageAlert = [[UIAlertView alloc]
-                                             initWithTitle:@"Error" message:@"Please Select Number of Groups First" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+                                             initWithTitle:@"Error" message:@"Please select the number of groups first"  delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
                 [messageAlert show];
                 
             }
@@ -906,7 +962,7 @@
                 progressView.progress  = appDelegate.progressValue;
                 
                 
-                if (appDelegate.meansAndVariance == @"Complete") {
+                if ([appDelegate.meansAndVariance  isEqual: @"Complete"]) {
                     tb.imageView.image = [UIImage imageNamed:@"complete_icon.png"];
                     
                 }
@@ -916,6 +972,9 @@
                     calculateButton.userInteractionEnabled = YES;
                     reset2Button.userInteractionEnabled = YES;
                     calculateButton.highlighted = YES;
+                    [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+                    calculateButton.highlighted = YES;
+                    [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
                     calculateButton.hidden = NO;
                     reset2Button.hidden = NO;
                     reset2Button.highlighted = YES;
@@ -951,11 +1010,11 @@
      Specify url for sending JSON object, based on if solving for power or sample size.
      */
     
-    if (appDelegate.solvingFor == @"Power"){
+    if ([appDelegate.solvingFor  isEqual: @"Power"]){
         NSLog(@"POWER IT IS");
         url  = [NSURL URLWithString:@"http://glimmpse.samplesizeshop.org/power/power"];
     }
-    else if (appDelegate.solvingFor == @"Sample Size") {
+    else if ([appDelegate.solvingFor  isEqual: @"Sample Size"]) {
         NSLog(@"SAMPLE SIZE IT IS");
         url = [NSURL URLWithString:@"http://glimmpse.samplesizeshop.org/power/samplesize"];
     }
@@ -988,7 +1047,7 @@
     if ([appDelegate.solvingFor isEqualToString:@"Power"]) {
         str  = @"POWER";
     }
-    else if ([appDelegate.solvingFor isEqualToString:@"Sample Size"]) {
+    else {
         str = @"SAMPLE_SIZE";
     }
     
@@ -1134,7 +1193,7 @@
      */
     
     
-    if (appDelegate.solvingFor == @"Power") {
+    if ([appDelegate.solvingFor  isEqual: @"Power"]) {
         
         NSLog(@"Inside power array");
         
@@ -1175,7 +1234,7 @@
         
     }
     
-    else if (appDelegate.solvingFor == @"Sample Size") {
+    else if ([appDelegate.solvingFor  isEqual: @"Sample Size"]) {
         
         NSLog(@"Inside sample size array");
         
@@ -1352,7 +1411,7 @@
     [request setHTTPMethod:@"POST"];
     [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [request setValue:[NSString stringWithFormat:@"%i", [newJSONData length]] forHTTPHeaderField:@"Content-Length"];
+    [request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[newJSONData length]] forHTTPHeaderField:@"Content-Length"];
     
     [request setHTTPBody:newJSONData];
     
@@ -1391,9 +1450,11 @@
             
             //NSLog(@"Inside JSON dictionary in the results section");
             
-            NSDictionary* target = [JSON objectAtIndex:number];
+            NSDictionary* target = day;
+            NSLog(@"value for day, value for JSON:  %@ %@", day, [JSON objectAtIndex:number]);
+            //[JSON objectAtIndex:number];
             sampleSize = [target objectForKey:@"totalSampleSize"];
-            if (appDelegate.solvingFor == @"Power") {
+            if ([appDelegate.solvingFor  isEqual: @"Power"]) {
                 power = [target objectForKey:@"actualPower"];
                 
                 while (i<4) {
@@ -1422,13 +1483,13 @@
                 }
                 
             }
-            else if (appDelegate.solvingFor == @"Sample Size") {
+            else if ([appDelegate.solvingFor  isEqual: @"Sample Size"]) {
                 NSDictionary *dict = [target objectForKey:@"nominalPower"];
                 power = [dict objectForKey:@"value"];
                 actualPower = [target objectForKey:@"actualPower"];
                 
                 while (i<4) {
-                    if ([appDelegate.powerButtonsStatus objectAtIndex:i] == @"Selected") {
+                    if ([[appDelegate.powerButtonsStatus objectAtIndex:i]  isEqual: @"Selected"]) {
                         NSString *str = sampleSize;
                         NSString *strNew = [NSString stringWithFormat:@"%@",str];
                         [appDelegate.sampleSizeResults replaceObjectAtIndex:i withObject:strNew];
@@ -1458,13 +1519,13 @@
         
         
         while (i<4) {
-            if (appDelegate.solvingFor == @"Power") {
+            if ([appDelegate.solvingFor  isEqual: @"Power"]) {
                 [appDelegate.sampleSizeResults replaceObjectAtIndex:i withObject:@"NoSelection"];
                 [appDelegate.powerResults replaceObjectAtIndex:i withObject:@"N/A"];
                 [appDelegate.nominalPowers replaceObjectAtIndex:i withObject:@"N/A"];
                 
             }
-            else if (appDelegate.solvingFor == @"Sample Size") {
+            else if ([appDelegate.solvingFor  isEqual: @"Sample Size"]) {
                 [appDelegate.sampleSizeResults replaceObjectAtIndex:i withObject:@"N/A"];
                 [appDelegate.powerResults replaceObjectAtIndex:i withObject:@"NoSelection"];
                 [appDelegate.nominalPowers replaceObjectAtIndex:i withObject:@"NoSelection"];
@@ -1497,7 +1558,7 @@
         
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         NSLog(@"Request failed: %@", [error localizedDescription]);
-        NSLog(@"code:%i", [error code]);
+        NSLog(@"code:%li", (long)[error code]);
         if ([error code] == -1011) {
             NSLog(@"sample size too large");
             appDelegate.resultsResponse = @"Request failed";
@@ -1520,6 +1581,9 @@
         calculateButton.userInteractionEnabled = YES;
         calculateButton.highlighted = YES;
         reset2Button.userInteractionEnabled = YES;
+        [reset2Button setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
+        calculateButton.highlighted = YES;
+        [calculateButton setTintColor:[UIColor colorWithRed:48/255.0f green:124/255.0f blue:59/255.0f alpha:1.0f]];
         
         [self.view setUserInteractionEnabled:YES];
     }] start];
@@ -1559,7 +1623,7 @@
 - (IBAction)resetPressed {
     
     UIAlertView *messageAlert = [[UIAlertView alloc]
-                                 initWithTitle:@"RESET" message:@"Sure you want to Reset the design?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK",nil];
+                                 initWithTitle:@"Confirm Reset" message:@"This action will clear any unsaved study design information. Continue?" delegate:self cancelButtonTitle:@"No" otherButtonTitles:@"Yes",nil];
     [messageAlert show];
     
 }
@@ -1623,7 +1687,7 @@
         reset2Button.hidden = YES;
         calculateButton.hidden = YES;
         resetButton.hidden = NO;
-        
+        [resetButton setTintColor:[UIColor colorWithRed:122/255.0f green:52/255.0f blue:35/255.0f alpha:1.0f]];
         [self viewWillAppear:YES];
         
         
