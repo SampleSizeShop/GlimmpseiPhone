@@ -56,6 +56,7 @@
 		1DF18D3F16A903010084B0EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF18D3E16A903010084B0EA /* Default@2x.png */; };
 		5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5856A6EF16A0B715004C9CD4 /* GLIMMPSELiteDescription.txt */; };
 		585E94EA192553430096772C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 585E94E9192553430096772C /* Default-568h@2x.png */; };
+		585E94EC1925574D0096772C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585E94EB1925574D0096772C /* Images.xcassets */; };
 		58AD397F169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */; };
 		58AD3982169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */; };
 		58AD3984169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3983169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv */; };
@@ -215,6 +216,7 @@
 		585E94E519254F790096772C /* GlimmpseIcon58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlimmpseIcon58x58.png; path = ../../GlimmpseIcon58x58.png; sourceTree = "<group>"; };
 		585E94E619254F860096772C /* GlimmpseIcon80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlimmpseIcon80x80.png; path = ../../GlimmpseIcon80x80.png; sourceTree = "<group>"; };
 		585E94E9192553430096772C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		585E94EB1925574D0096772C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Glimmpse Lite/Images.xcassets"; sourceTree = SOURCE_ROOT; };
 		58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EqualGroupSizeOneWayANOVA.json; sourceTree = "<group>"; };
 		58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GLIMMPSELiteStudyDesign.json; sourceTree = "<group>"; };
 		58AD3983169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GLIMMPSEPowerResults.csv; sourceTree = "<group>"; };
@@ -458,6 +460,7 @@
 		1D80BB06168DBFA200EDE79B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				585E94EB1925574D0096772C /* Images.xcassets */,
 				58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */,
 				58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */,
 				58AD3985169C8B4600B5CAC2 /* studySample.json */,
@@ -565,6 +568,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D80BB03168DBF9700EDE79B /* InfoPlist.strings in Resources */,
+				585E94EC1925574D0096772C /* Images.xcassets in Resources */,
 				585E94EA192553430096772C /* Default-568h@2x.png in Resources */,
 				1D80BB05168DBF9700EDE79B /* MainStoryboard.storyboard in Resources */,
 				1D80BB0C168DBFA200EDE79B /* Default.png in Resources */,
@@ -677,6 +681,8 @@
 		1D80BAF1168DBE5E00EDE79B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Aarti Munjal (TX5YG299LY)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal (TX5YG299LY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -695,6 +701,8 @@
 		1D80BAF2168DBE5E00EDE79B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Aarti Munjal (TX5YG299LY)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aarti Munjal (TX5YG299LY)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
