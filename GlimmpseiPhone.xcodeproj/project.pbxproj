@@ -55,6 +55,7 @@
 		1DCAE85E16A8F9380080224D /* build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 1DCAE85D16A8F9380080224D /* build.sh */; };
 		1DF18D3F16A903010084B0EA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DF18D3E16A903010084B0EA /* Default@2x.png */; };
 		5856A6F016A0B715004C9CD4 /* GLIMMPSELiteDescription.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5856A6EF16A0B715004C9CD4 /* GLIMMPSELiteDescription.txt */; };
+		585E94EA192553430096772C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 585E94E9192553430096772C /* Default-568h@2x.png */; };
 		58AD397F169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */; };
 		58AD3982169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */; };
 		58AD3984169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv in Resources */ = {isa = PBXBuildFile; fileRef = 58AD3983169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv */; };
@@ -209,6 +210,11 @@
 		1DCAE86016A8F9BA0080224D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1DF18D3E16A903010084B0EA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Default@2x.png"; sourceTree = "<group>"; };
 		5856A6EF16A0B715004C9CD4 /* GLIMMPSELiteDescription.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GLIMMPSELiteDescription.txt; sourceTree = "<group>"; };
+		585E94E319254EF20096772C /* GlimmpseIcon120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlimmpseIcon120x120.png; path = ../../GlimmpseIcon120x120.png; sourceTree = "<group>"; };
+		585E94E419254F690096772C /* GlimmpseIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlimmpseIcon29x29.png; path = ../../GlimmpseIcon29x29.png; sourceTree = "<group>"; };
+		585E94E519254F790096772C /* GlimmpseIcon58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlimmpseIcon58x58.png; path = ../../GlimmpseIcon58x58.png; sourceTree = "<group>"; };
+		585E94E619254F860096772C /* GlimmpseIcon80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GlimmpseIcon80x80.png; path = ../../GlimmpseIcon80x80.png; sourceTree = "<group>"; };
+		585E94E9192553430096772C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		58AD397E169C8A5F00B5CAC2 /* EqualGroupSizeOneWayANOVA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EqualGroupSizeOneWayANOVA.json; sourceTree = "<group>"; };
 		58AD3981169C8B2700B5CAC2 /* GLIMMPSELiteStudyDesign.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GLIMMPSELiteStudyDesign.json; sourceTree = "<group>"; };
 		58AD3983169C8B3900B5CAC2 /* GLIMMPSEPowerResults.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GLIMMPSEPowerResults.csv; sourceTree = "<group>"; };
@@ -351,6 +357,7 @@
 		1D80BAC1168DBE5E00EDE79B = {
 			isa = PBXGroup;
 			children = (
+				585E94E9192553430096772C /* Default-568h@2x.png */,
 				1D1AF16E169FF87400EFE240 /* LICENSE-gpl2.0.txt */,
 				1D1AF151169FBD6800EFE240 /* libWebServiceCommonObjectiveC.a */,
 				1D3CD689169B9E5E002D61A7 /* Externals */,
@@ -466,6 +473,10 @@
 				1D2E735A169BFB11005260CC /* GlimmpseIconNoBG48x48.png */,
 				1D1AF145169FB53000EFE240 /* complete_icon.png */,
 				1DF18D3E16A903010084B0EA /* Default@2x.png */,
+				585E94E619254F860096772C /* GlimmpseIcon80x80.png */,
+				585E94E519254F790096772C /* GlimmpseIcon58x58.png */,
+				585E94E419254F690096772C /* GlimmpseIcon29x29.png */,
+				585E94E319254EF20096772C /* GlimmpseIcon120x120.png */,
 				1D1AF143169FB52A00EFE240 /* aboutus.png */,
 				1D1AF149169FBCCD00EFE240 /* GlimmpseIcon57x57.png */,
 				1DCAE86016A8F9BA0080224D /* Default-568h@2x.png */,
@@ -554,6 +565,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D80BB03168DBF9700EDE79B /* InfoPlist.strings in Resources */,
+				585E94EA192553430096772C /* Default-568h@2x.png in Resources */,
 				1D80BB05168DBF9700EDE79B /* MainStoryboard.storyboard in Resources */,
 				1D80BB0C168DBFA200EDE79B /* Default.png in Resources */,
 				1D2E735B169BFB11005260CC /* GlimmpseIconNoBG48x48.png in Resources */,
